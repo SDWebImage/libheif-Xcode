@@ -5,7 +5,7 @@
 //  Created by lizhuoli on 2018/12/21.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for libheif.
 FOUNDATION_EXPORT double libheifVersionNumber;

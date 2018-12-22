@@ -1,0 +1,1184 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32BF9A9721CCE8B900056EB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9A9621CCE8B900056EB2 /* main.m */; };
+		32BF9A9E21CCE9A900056EB2 /* libheif.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9A9C21CCE9A900056EB2 /* libheif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BF9B0521CCEA1A00056EB2 /* heif_plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA221CCEA1A00056EB2 /* heif_plugin.h */; };
+		32BF9B0621CCEA1A00056EB2 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA321CCEA1A00056EB2 /* error.h */; };
+		32BF9B0721CCEA1A00056EB2 /* box.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA421CCEA1A00056EB2 /* box.h */; };
+		32BF9B0921CCEA1A00056EB2 /* heif_decoder_libde265.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AA621CCEA1A00056EB2 /* heif_decoder_libde265.cc */; };
+		32BF9B0A21CCEA1A00056EB2 /* heif.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA721CCEA1A00056EB2 /* heif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BF9B0B21CCEA1A00056EB2 /* heif_limits.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA821CCEA1A00056EB2 /* heif_limits.h */; };
+		32BF9B0C21CCEA1A00056EB2 /* heif_image.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AA921CCEA1A00056EB2 /* heif_image.cc */; };
+		32BF9B0D21CCEA1A00056EB2 /* heif_hevc.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AAA21CCEA1A00056EB2 /* heif_hevc.h */; };
+		32BF9B1121CCEA1A00056EB2 /* heif_file.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AAE21CCEA1A00056EB2 /* heif_file.h */; };
+		32BF9B1221CCEA1A00056EB2 /* heif_file.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AAF21CCEA1A00056EB2 /* heif_file.cc */; };
+		32BF9B1321CCEA1A00056EB2 /* heif_emscripten.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB021CCEA1A00056EB2 /* heif_emscripten.h */; };
+		32BF9B1421CCEA1A00056EB2 /* heif_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB121CCEA1A00056EB2 /* heif_cxx.h */; };
+		32BF9B1521CCEA1A00056EB2 /* heif.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB221CCEA1A00056EB2 /* heif.cc */; };
+		32BF9B1621CCEA1A00056EB2 /* logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB321CCEA1A00056EB2 /* logging.h */; };
+		32BF9B1721CCEA1A00056EB2 /* bitstream.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB421CCEA1A00056EB2 /* bitstream.cc */; };
+		32BF9B1921CCEA1A00056EB2 /* heif_plugin_registry.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB621CCEA1A00056EB2 /* heif_plugin_registry.cc */; };
+		32BF9B1B21CCEA1A00056EB2 /* heif_hevc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB821CCEA1A00056EB2 /* heif_hevc.cc */; };
+		32BF9B1C21CCEA1A00056EB2 /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB921CCEA1A00056EB2 /* bitstream.h */; };
+		32BF9B1E21CCEA1A00056EB2 /* heif_context.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9ABB21CCEA1A00056EB2 /* heif_context.cc */; };
+		32BF9B1F21CCEA1A00056EB2 /* heif_plugin_registry.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9ABC21CCEA1A00056EB2 /* heif_plugin_registry.h */; };
+		32BF9B2021CCEA1A00056EB2 /* heif_plugin.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9ABD21CCEA1A00056EB2 /* heif_plugin.cc */; };
+		32BF9B2221CCEA1A00056EB2 /* box.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9ABF21CCEA1A00056EB2 /* box.cc */; };
+		32BF9B2421CCEA1A00056EB2 /* heif_decoder_libde265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC121CCEA1A00056EB2 /* heif_decoder_libde265.h */; };
+		32BF9B2521CCEA1A00056EB2 /* heif_api_structs.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC221CCEA1A00056EB2 /* heif_api_structs.h */; };
+		32BF9B2621CCEA1A00056EB2 /* heif_image.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC321CCEA1A00056EB2 /* heif_image.h */; };
+		32BF9B2721CCEA1A00056EB2 /* heif_context.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC421CCEA1A00056EB2 /* heif_context.h */; };
+		32BF9B2821CCEA1A00056EB2 /* error.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AC521CCEA1A00056EB2 /* error.cc */; };
+		32BF9B6121CCEA8E00056EB2 /* heif_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9B6021CCEA8E00056EB2 /* heif_version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BF9B6421CCEFC100056EB2 /* libde265.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BF9B6321CCEFC100056EB2 /* libde265.framework */; };
+		32BF9B6521CCF16800056EB2 /* libheif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BF98BC21CCE79000056EB2 /* libheif.framework */; };
+		32BF9B6621CCF1AC00056EB2 /* libde265.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BF9B6321CCEFC100056EB2 /* libde265.framework */; };
+		32BF9B6821CCF2A900056EB2 /* libde265.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 32BF9B6321CCEFC100056EB2 /* libde265.framework */; };
+		32BF9B9021CCF38800056EB2 /* bitstream.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB421CCEA1A00056EB2 /* bitstream.cc */; };
+		32BF9B9121CCF38800056EB2 /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB921CCEA1A00056EB2 /* bitstream.h */; };
+		32BF9B9221CCF38800056EB2 /* box.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9ABF21CCEA1A00056EB2 /* box.cc */; };
+		32BF9B9321CCF38800056EB2 /* box.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA421CCEA1A00056EB2 /* box.h */; };
+		32BF9B9421CCF38800056EB2 /* error.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AC521CCEA1A00056EB2 /* error.cc */; };
+		32BF9B9521CCF38800056EB2 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA321CCEA1A00056EB2 /* error.h */; };
+		32BF9B9621CCF38800056EB2 /* heif_api_structs.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC221CCEA1A00056EB2 /* heif_api_structs.h */; };
+		32BF9B9721CCF38800056EB2 /* heif_context.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9ABB21CCEA1A00056EB2 /* heif_context.cc */; };
+		32BF9B9821CCF38800056EB2 /* heif_context.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC421CCEA1A00056EB2 /* heif_context.h */; };
+		32BF9B9921CCF38800056EB2 /* heif_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB121CCEA1A00056EB2 /* heif_cxx.h */; };
+		32BF9B9A21CCF38800056EB2 /* heif_decoder_libde265.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AA621CCEA1A00056EB2 /* heif_decoder_libde265.cc */; };
+		32BF9B9B21CCF38800056EB2 /* heif_decoder_libde265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC121CCEA1A00056EB2 /* heif_decoder_libde265.h */; };
+		32BF9B9C21CCF38800056EB2 /* heif_emscripten.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB021CCEA1A00056EB2 /* heif_emscripten.h */; };
+		32BF9B9D21CCF38800056EB2 /* heif_file.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AAF21CCEA1A00056EB2 /* heif_file.cc */; };
+		32BF9B9E21CCF38800056EB2 /* heif_file.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AAE21CCEA1A00056EB2 /* heif_file.h */; };
+		32BF9B9F21CCF38800056EB2 /* heif_hevc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB821CCEA1A00056EB2 /* heif_hevc.cc */; };
+		32BF9BA021CCF38800056EB2 /* heif_hevc.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AAA21CCEA1A00056EB2 /* heif_hevc.h */; };
+		32BF9BA121CCF38800056EB2 /* heif_image.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AA921CCEA1A00056EB2 /* heif_image.cc */; };
+		32BF9BA221CCF38800056EB2 /* heif_image.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC321CCEA1A00056EB2 /* heif_image.h */; };
+		32BF9BA321CCF38800056EB2 /* heif_limits.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA821CCEA1A00056EB2 /* heif_limits.h */; };
+		32BF9BA421CCF38800056EB2 /* heif_plugin_registry.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB621CCEA1A00056EB2 /* heif_plugin_registry.cc */; };
+		32BF9BA521CCF38800056EB2 /* heif_plugin_registry.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9ABC21CCEA1A00056EB2 /* heif_plugin_registry.h */; };
+		32BF9BA621CCF38800056EB2 /* heif_plugin.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9ABD21CCEA1A00056EB2 /* heif_plugin.cc */; };
+		32BF9BA721CCF38800056EB2 /* heif_plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA221CCEA1A00056EB2 /* heif_plugin.h */; };
+		32BF9BA821CCF38800056EB2 /* heif.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB221CCEA1A00056EB2 /* heif.cc */; };
+		32BF9BA921CCF38800056EB2 /* heif.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA721CCEA1A00056EB2 /* heif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BF9BAA21CCF38800056EB2 /* logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB321CCEA1A00056EB2 /* logging.h */; };
+		32BF9BAB21CCF38800056EB2 /* bitstream.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB421CCEA1A00056EB2 /* bitstream.cc */; };
+		32BF9BAC21CCF38800056EB2 /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB921CCEA1A00056EB2 /* bitstream.h */; };
+		32BF9BAD21CCF38800056EB2 /* box.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9ABF21CCEA1A00056EB2 /* box.cc */; };
+		32BF9BAE21CCF38800056EB2 /* box.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA421CCEA1A00056EB2 /* box.h */; };
+		32BF9BAF21CCF38800056EB2 /* error.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AC521CCEA1A00056EB2 /* error.cc */; };
+		32BF9BB021CCF38800056EB2 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA321CCEA1A00056EB2 /* error.h */; };
+		32BF9BB121CCF38800056EB2 /* heif_api_structs.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC221CCEA1A00056EB2 /* heif_api_structs.h */; };
+		32BF9BB221CCF38800056EB2 /* heif_context.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9ABB21CCEA1A00056EB2 /* heif_context.cc */; };
+		32BF9BB321CCF38800056EB2 /* heif_context.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC421CCEA1A00056EB2 /* heif_context.h */; };
+		32BF9BB421CCF38800056EB2 /* heif_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB121CCEA1A00056EB2 /* heif_cxx.h */; };
+		32BF9BB521CCF38800056EB2 /* heif_decoder_libde265.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AA621CCEA1A00056EB2 /* heif_decoder_libde265.cc */; };
+		32BF9BB621CCF38800056EB2 /* heif_decoder_libde265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC121CCEA1A00056EB2 /* heif_decoder_libde265.h */; };
+		32BF9BB721CCF38800056EB2 /* heif_emscripten.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB021CCEA1A00056EB2 /* heif_emscripten.h */; };
+		32BF9BB821CCF38800056EB2 /* heif_file.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AAF21CCEA1A00056EB2 /* heif_file.cc */; };
+		32BF9BB921CCF38800056EB2 /* heif_file.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AAE21CCEA1A00056EB2 /* heif_file.h */; };
+		32BF9BBA21CCF38800056EB2 /* heif_hevc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB821CCEA1A00056EB2 /* heif_hevc.cc */; };
+		32BF9BBB21CCF38800056EB2 /* heif_hevc.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AAA21CCEA1A00056EB2 /* heif_hevc.h */; };
+		32BF9BBC21CCF38800056EB2 /* heif_image.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AA921CCEA1A00056EB2 /* heif_image.cc */; };
+		32BF9BBD21CCF38800056EB2 /* heif_image.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC321CCEA1A00056EB2 /* heif_image.h */; };
+		32BF9BBE21CCF38800056EB2 /* heif_limits.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA821CCEA1A00056EB2 /* heif_limits.h */; };
+		32BF9BBF21CCF38800056EB2 /* heif_plugin_registry.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB621CCEA1A00056EB2 /* heif_plugin_registry.cc */; };
+		32BF9BC021CCF38800056EB2 /* heif_plugin_registry.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9ABC21CCEA1A00056EB2 /* heif_plugin_registry.h */; };
+		32BF9BC121CCF38800056EB2 /* heif_plugin.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9ABD21CCEA1A00056EB2 /* heif_plugin.cc */; };
+		32BF9BC221CCF38800056EB2 /* heif_plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA221CCEA1A00056EB2 /* heif_plugin.h */; };
+		32BF9BC321CCF38800056EB2 /* heif.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB221CCEA1A00056EB2 /* heif.cc */; };
+		32BF9BC421CCF38800056EB2 /* heif.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA721CCEA1A00056EB2 /* heif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BF9BC521CCF38800056EB2 /* logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB321CCEA1A00056EB2 /* logging.h */; };
+		32BF9BC621CCF38A00056EB2 /* bitstream.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB421CCEA1A00056EB2 /* bitstream.cc */; };
+		32BF9BC721CCF38A00056EB2 /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB921CCEA1A00056EB2 /* bitstream.h */; };
+		32BF9BC821CCF38A00056EB2 /* box.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9ABF21CCEA1A00056EB2 /* box.cc */; };
+		32BF9BC921CCF38A00056EB2 /* box.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA421CCEA1A00056EB2 /* box.h */; };
+		32BF9BCA21CCF38A00056EB2 /* error.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AC521CCEA1A00056EB2 /* error.cc */; };
+		32BF9BCB21CCF38A00056EB2 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA321CCEA1A00056EB2 /* error.h */; };
+		32BF9BCC21CCF38A00056EB2 /* heif_api_structs.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC221CCEA1A00056EB2 /* heif_api_structs.h */; };
+		32BF9BCD21CCF38A00056EB2 /* heif_context.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9ABB21CCEA1A00056EB2 /* heif_context.cc */; };
+		32BF9BCE21CCF38A00056EB2 /* heif_context.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC421CCEA1A00056EB2 /* heif_context.h */; };
+		32BF9BCF21CCF38A00056EB2 /* heif_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB121CCEA1A00056EB2 /* heif_cxx.h */; };
+		32BF9BD021CCF38A00056EB2 /* heif_decoder_libde265.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AA621CCEA1A00056EB2 /* heif_decoder_libde265.cc */; };
+		32BF9BD121CCF38A00056EB2 /* heif_decoder_libde265.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC121CCEA1A00056EB2 /* heif_decoder_libde265.h */; };
+		32BF9BD221CCF38A00056EB2 /* heif_emscripten.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB021CCEA1A00056EB2 /* heif_emscripten.h */; };
+		32BF9BD321CCF38A00056EB2 /* heif_file.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AAF21CCEA1A00056EB2 /* heif_file.cc */; };
+		32BF9BD421CCF38A00056EB2 /* heif_file.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AAE21CCEA1A00056EB2 /* heif_file.h */; };
+		32BF9BD521CCF38A00056EB2 /* heif_hevc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB821CCEA1A00056EB2 /* heif_hevc.cc */; };
+		32BF9BD621CCF38A00056EB2 /* heif_hevc.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AAA21CCEA1A00056EB2 /* heif_hevc.h */; };
+		32BF9BD721CCF38A00056EB2 /* heif_image.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AA921CCEA1A00056EB2 /* heif_image.cc */; };
+		32BF9BD821CCF38A00056EB2 /* heif_image.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AC321CCEA1A00056EB2 /* heif_image.h */; };
+		32BF9BD921CCF38A00056EB2 /* heif_limits.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA821CCEA1A00056EB2 /* heif_limits.h */; };
+		32BF9BDA21CCF38A00056EB2 /* heif_plugin_registry.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB621CCEA1A00056EB2 /* heif_plugin_registry.cc */; };
+		32BF9BDB21CCF38A00056EB2 /* heif_plugin_registry.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9ABC21CCEA1A00056EB2 /* heif_plugin_registry.h */; };
+		32BF9BDC21CCF38A00056EB2 /* heif_plugin.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9ABD21CCEA1A00056EB2 /* heif_plugin.cc */; };
+		32BF9BDD21CCF38A00056EB2 /* heif_plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA221CCEA1A00056EB2 /* heif_plugin.h */; };
+		32BF9BDE21CCF38A00056EB2 /* heif.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9AB221CCEA1A00056EB2 /* heif.cc */; };
+		32BF9BDF21CCF38A00056EB2 /* heif.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA721CCEA1A00056EB2 /* heif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BF9BE021CCF38A00056EB2 /* logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AB321CCEA1A00056EB2 /* logging.h */; };
+		32BF9BE121CCF39400056EB2 /* heif_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9B6021CCEA8E00056EB2 /* heif_version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BF9BE221CCF39500056EB2 /* heif_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9B6021CCEA8E00056EB2 /* heif_version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BF9BE321CCF39500056EB2 /* heif_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9B6021CCEA8E00056EB2 /* heif_version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BF9BE421CCF39D00056EB2 /* libheif.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9A9C21CCE9A900056EB2 /* libheif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BF9BE521CCF39D00056EB2 /* libheif.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9A9C21CCE9A900056EB2 /* libheif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BF9BE621CCF39E00056EB2 /* libheif.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9A9C21CCE9A900056EB2 /* libheif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BF9BEE21CCF62A00056EB2 /* libde265.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BF9BED21CCF62A00056EB2 /* libde265.framework */; };
+		32BF9BF021CCF63800056EB2 /* libde265.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BF9BEF21CCF63800056EB2 /* libde265.framework */; };
+		32BF9BF221CCF64300056EB2 /* libde265.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BF9BF121CCF64300056EB2 /* libde265.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32BF9A9221CCE8B900056EB2 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				32BF9B6821CCF2A900056EB2 /* libde265.framework in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32BF98BC21CCE79000056EB2 /* libheif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libheif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BF9A9421CCE8B900056EB2 /* libheifExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = libheifExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BF9A9621CCE8B900056EB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32BF9A9C21CCE9A900056EB2 /* libheif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libheif.h; sourceTree = "<group>"; };
+		32BF9A9D21CCE9A900056EB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BF9AA221CCEA1A00056EB2 /* heif_plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_plugin.h; sourceTree = "<group>"; };
+		32BF9AA321CCEA1A00056EB2 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		32BF9AA421CCEA1A00056EB2 /* box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = box.h; sourceTree = "<group>"; };
+		32BF9AA621CCEA1A00056EB2 /* heif_decoder_libde265.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_decoder_libde265.cc; sourceTree = "<group>"; };
+		32BF9AA721CCEA1A00056EB2 /* heif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif.h; sourceTree = "<group>"; };
+		32BF9AA821CCEA1A00056EB2 /* heif_limits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_limits.h; sourceTree = "<group>"; };
+		32BF9AA921CCEA1A00056EB2 /* heif_image.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_image.cc; sourceTree = "<group>"; };
+		32BF9AAA21CCEA1A00056EB2 /* heif_hevc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_hevc.h; sourceTree = "<group>"; };
+		32BF9AAE21CCEA1A00056EB2 /* heif_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_file.h; sourceTree = "<group>"; };
+		32BF9AAF21CCEA1A00056EB2 /* heif_file.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_file.cc; sourceTree = "<group>"; };
+		32BF9AB021CCEA1A00056EB2 /* heif_emscripten.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_emscripten.h; sourceTree = "<group>"; };
+		32BF9AB121CCEA1A00056EB2 /* heif_cxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_cxx.h; sourceTree = "<group>"; };
+		32BF9AB221CCEA1A00056EB2 /* heif.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif.cc; sourceTree = "<group>"; };
+		32BF9AB321CCEA1A00056EB2 /* logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
+		32BF9AB421CCEA1A00056EB2 /* bitstream.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bitstream.cc; sourceTree = "<group>"; };
+		32BF9AB621CCEA1A00056EB2 /* heif_plugin_registry.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_plugin_registry.cc; sourceTree = "<group>"; };
+		32BF9AB821CCEA1A00056EB2 /* heif_hevc.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_hevc.cc; sourceTree = "<group>"; };
+		32BF9AB921CCEA1A00056EB2 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		32BF9ABB21CCEA1A00056EB2 /* heif_context.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_context.cc; sourceTree = "<group>"; };
+		32BF9ABC21CCEA1A00056EB2 /* heif_plugin_registry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_plugin_registry.h; sourceTree = "<group>"; };
+		32BF9ABD21CCEA1A00056EB2 /* heif_plugin.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_plugin.cc; sourceTree = "<group>"; };
+		32BF9ABF21CCEA1A00056EB2 /* box.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = box.cc; sourceTree = "<group>"; };
+		32BF9AC121CCEA1A00056EB2 /* heif_decoder_libde265.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_decoder_libde265.h; sourceTree = "<group>"; };
+		32BF9AC221CCEA1A00056EB2 /* heif_api_structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_api_structs.h; sourceTree = "<group>"; };
+		32BF9AC321CCEA1A00056EB2 /* heif_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_image.h; sourceTree = "<group>"; };
+		32BF9AC421CCEA1A00056EB2 /* heif_context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_context.h; sourceTree = "<group>"; };
+		32BF9AC521CCEA1A00056EB2 /* error.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = error.cc; sourceTree = "<group>"; };
+		32BF9B6021CCEA8E00056EB2 /* heif_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_version.h; sourceTree = "<group>"; };
+		32BF9B6321CCEFC100056EB2 /* libde265.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libde265.framework; path = Carthage/Build/Mac/libde265.framework; sourceTree = "<group>"; };
+		32BF9B6E21CCF34700056EB2 /* libheif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libheif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BF9B7B21CCF35400056EB2 /* libheif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libheif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BF9B8821CCF36100056EB2 /* libheif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libheif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BF9BED21CCF62A00056EB2 /* libde265.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libde265.framework; path = Carthage/Build/iOS/libde265.framework; sourceTree = "<group>"; };
+		32BF9BEF21CCF63800056EB2 /* libde265.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libde265.framework; path = Carthage/Build/tvOS/libde265.framework; sourceTree = "<group>"; };
+		32BF9BF121CCF64300056EB2 /* libde265.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libde265.framework; path = Carthage/Build/watchOS/libde265.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32BF98B921CCE79000056EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF9B6421CCEFC100056EB2 /* libde265.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF9A9121CCE8B900056EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF9B6621CCF1AC00056EB2 /* libde265.framework in Frameworks */,
+				32BF9B6521CCF16800056EB2 /* libheif.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF9B6B21CCF34700056EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF9BEE21CCF62A00056EB2 /* libde265.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF9B7821CCF35400056EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF9BF021CCF63800056EB2 /* libde265.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF9B8521CCF36100056EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF9BF221CCF64300056EB2 /* libde265.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32BF98B221CCE79000056EB2 = {
+			isa = PBXGroup;
+			children = (
+				32BF9AA021CCEA1A00056EB2 /* libheif */,
+				32BF9A9B21CCE9A900056EB2 /* Xcode */,
+				32BF9A9521CCE8B900056EB2 /* libheifExample */,
+				32BF98BD21CCE79000056EB2 /* Products */,
+				32BF9B6221CCEFC100056EB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32BF98BD21CCE79000056EB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32BF98BC21CCE79000056EB2 /* libheif.framework */,
+				32BF9A9421CCE8B900056EB2 /* libheifExample */,
+				32BF9B6E21CCF34700056EB2 /* libheif.framework */,
+				32BF9B7B21CCF35400056EB2 /* libheif.framework */,
+				32BF9B8821CCF36100056EB2 /* libheif.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32BF9A9521CCE8B900056EB2 /* libheifExample */ = {
+			isa = PBXGroup;
+			children = (
+				32BF9A9621CCE8B900056EB2 /* main.m */,
+			);
+			path = libheifExample;
+			sourceTree = "<group>";
+		};
+		32BF9A9B21CCE9A900056EB2 /* Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				32BF9A9C21CCE9A900056EB2 /* libheif.h */,
+				32BF9B6021CCEA8E00056EB2 /* heif_version.h */,
+				32BF9A9D21CCE9A900056EB2 /* Info.plist */,
+			);
+			path = Xcode;
+			sourceTree = "<group>";
+		};
+		32BF9AA021CCEA1A00056EB2 /* libheif */ = {
+			isa = PBXGroup;
+			children = (
+				32BF9AA121CCEA1A00056EB2 /* libheif */,
+			);
+			path = libheif;
+			sourceTree = "<group>";
+		};
+		32BF9AA121CCEA1A00056EB2 /* libheif */ = {
+			isa = PBXGroup;
+			children = (
+				32BF9AB421CCEA1A00056EB2 /* bitstream.cc */,
+				32BF9AB921CCEA1A00056EB2 /* bitstream.h */,
+				32BF9ABF21CCEA1A00056EB2 /* box.cc */,
+				32BF9AA421CCEA1A00056EB2 /* box.h */,
+				32BF9AC521CCEA1A00056EB2 /* error.cc */,
+				32BF9AA321CCEA1A00056EB2 /* error.h */,
+				32BF9AC221CCEA1A00056EB2 /* heif_api_structs.h */,
+				32BF9ABB21CCEA1A00056EB2 /* heif_context.cc */,
+				32BF9AC421CCEA1A00056EB2 /* heif_context.h */,
+				32BF9AB121CCEA1A00056EB2 /* heif_cxx.h */,
+				32BF9AA621CCEA1A00056EB2 /* heif_decoder_libde265.cc */,
+				32BF9AC121CCEA1A00056EB2 /* heif_decoder_libde265.h */,
+				32BF9AB021CCEA1A00056EB2 /* heif_emscripten.h */,
+				32BF9AAF21CCEA1A00056EB2 /* heif_file.cc */,
+				32BF9AAE21CCEA1A00056EB2 /* heif_file.h */,
+				32BF9AB821CCEA1A00056EB2 /* heif_hevc.cc */,
+				32BF9AAA21CCEA1A00056EB2 /* heif_hevc.h */,
+				32BF9AA921CCEA1A00056EB2 /* heif_image.cc */,
+				32BF9AC321CCEA1A00056EB2 /* heif_image.h */,
+				32BF9AA821CCEA1A00056EB2 /* heif_limits.h */,
+				32BF9AB621CCEA1A00056EB2 /* heif_plugin_registry.cc */,
+				32BF9ABC21CCEA1A00056EB2 /* heif_plugin_registry.h */,
+				32BF9ABD21CCEA1A00056EB2 /* heif_plugin.cc */,
+				32BF9AA221CCEA1A00056EB2 /* heif_plugin.h */,
+				32BF9AB221CCEA1A00056EB2 /* heif.cc */,
+				32BF9AA721CCEA1A00056EB2 /* heif.h */,
+				32BF9AB321CCEA1A00056EB2 /* logging.h */,
+			);
+			path = libheif;
+			sourceTree = "<group>";
+		};
+		32BF9B6221CCEFC100056EB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32BF9BED21CCF62A00056EB2 /* libde265.framework */,
+				32BF9BEF21CCF63800056EB2 /* libde265.framework */,
+				32BF9BF121CCF64300056EB2 /* libde265.framework */,
+				32BF9B6321CCEFC100056EB2 /* libde265.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32BF98B721CCE79000056EB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF9B0721CCEA1A00056EB2 /* box.h in Headers */,
+				32BF9B0B21CCEA1A00056EB2 /* heif_limits.h in Headers */,
+				32BF9B1F21CCEA1A00056EB2 /* heif_plugin_registry.h in Headers */,
+				32BF9B0D21CCEA1A00056EB2 /* heif_hevc.h in Headers */,
+				32BF9B6121CCEA8E00056EB2 /* heif_version.h in Headers */,
+				32BF9B2521CCEA1A00056EB2 /* heif_api_structs.h in Headers */,
+				32BF9B0621CCEA1A00056EB2 /* error.h in Headers */,
+				32BF9B2721CCEA1A00056EB2 /* heif_context.h in Headers */,
+				32BF9B1321CCEA1A00056EB2 /* heif_emscripten.h in Headers */,
+				32BF9B0A21CCEA1A00056EB2 /* heif.h in Headers */,
+				32BF9B2421CCEA1A00056EB2 /* heif_decoder_libde265.h in Headers */,
+				32BF9B1C21CCEA1A00056EB2 /* bitstream.h in Headers */,
+				32BF9A9E21CCE9A900056EB2 /* libheif.h in Headers */,
+				32BF9B1121CCEA1A00056EB2 /* heif_file.h in Headers */,
+				32BF9B0521CCEA1A00056EB2 /* heif_plugin.h in Headers */,
+				32BF9B1621CCEA1A00056EB2 /* logging.h in Headers */,
+				32BF9B1421CCEA1A00056EB2 /* heif_cxx.h in Headers */,
+				32BF9B2621CCEA1A00056EB2 /* heif_image.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF9B6921CCF34700056EB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF9BA321CCF38800056EB2 /* heif_limits.h in Headers */,
+				32BF9B9921CCF38800056EB2 /* heif_cxx.h in Headers */,
+				32BF9BE521CCF39D00056EB2 /* libheif.h in Headers */,
+				32BF9BA521CCF38800056EB2 /* heif_plugin_registry.h in Headers */,
+				32BF9BE121CCF39400056EB2 /* heif_version.h in Headers */,
+				32BF9B9621CCF38800056EB2 /* heif_api_structs.h in Headers */,
+				32BF9B9521CCF38800056EB2 /* error.h in Headers */,
+				32BF9BA921CCF38800056EB2 /* heif.h in Headers */,
+				32BF9BAA21CCF38800056EB2 /* logging.h in Headers */,
+				32BF9B9B21CCF38800056EB2 /* heif_decoder_libde265.h in Headers */,
+				32BF9BA021CCF38800056EB2 /* heif_hevc.h in Headers */,
+				32BF9B9C21CCF38800056EB2 /* heif_emscripten.h in Headers */,
+				32BF9B9821CCF38800056EB2 /* heif_context.h in Headers */,
+				32BF9B9321CCF38800056EB2 /* box.h in Headers */,
+				32BF9BA221CCF38800056EB2 /* heif_image.h in Headers */,
+				32BF9B9E21CCF38800056EB2 /* heif_file.h in Headers */,
+				32BF9B9121CCF38800056EB2 /* bitstream.h in Headers */,
+				32BF9BA721CCF38800056EB2 /* heif_plugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF9B7621CCF35400056EB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF9BBE21CCF38800056EB2 /* heif_limits.h in Headers */,
+				32BF9BB421CCF38800056EB2 /* heif_cxx.h in Headers */,
+				32BF9BE421CCF39D00056EB2 /* libheif.h in Headers */,
+				32BF9BC021CCF38800056EB2 /* heif_plugin_registry.h in Headers */,
+				32BF9BE221CCF39500056EB2 /* heif_version.h in Headers */,
+				32BF9BB121CCF38800056EB2 /* heif_api_structs.h in Headers */,
+				32BF9BB021CCF38800056EB2 /* error.h in Headers */,
+				32BF9BC421CCF38800056EB2 /* heif.h in Headers */,
+				32BF9BC521CCF38800056EB2 /* logging.h in Headers */,
+				32BF9BB621CCF38800056EB2 /* heif_decoder_libde265.h in Headers */,
+				32BF9BBB21CCF38800056EB2 /* heif_hevc.h in Headers */,
+				32BF9BB721CCF38800056EB2 /* heif_emscripten.h in Headers */,
+				32BF9BB321CCF38800056EB2 /* heif_context.h in Headers */,
+				32BF9BAE21CCF38800056EB2 /* box.h in Headers */,
+				32BF9BBD21CCF38800056EB2 /* heif_image.h in Headers */,
+				32BF9BB921CCF38800056EB2 /* heif_file.h in Headers */,
+				32BF9BAC21CCF38800056EB2 /* bitstream.h in Headers */,
+				32BF9BC221CCF38800056EB2 /* heif_plugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF9B8321CCF36100056EB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF9BD921CCF38A00056EB2 /* heif_limits.h in Headers */,
+				32BF9BCF21CCF38A00056EB2 /* heif_cxx.h in Headers */,
+				32BF9BE621CCF39E00056EB2 /* libheif.h in Headers */,
+				32BF9BDB21CCF38A00056EB2 /* heif_plugin_registry.h in Headers */,
+				32BF9BE321CCF39500056EB2 /* heif_version.h in Headers */,
+				32BF9BCC21CCF38A00056EB2 /* heif_api_structs.h in Headers */,
+				32BF9BCB21CCF38A00056EB2 /* error.h in Headers */,
+				32BF9BDF21CCF38A00056EB2 /* heif.h in Headers */,
+				32BF9BE021CCF38A00056EB2 /* logging.h in Headers */,
+				32BF9BD121CCF38A00056EB2 /* heif_decoder_libde265.h in Headers */,
+				32BF9BD621CCF38A00056EB2 /* heif_hevc.h in Headers */,
+				32BF9BD221CCF38A00056EB2 /* heif_emscripten.h in Headers */,
+				32BF9BCE21CCF38A00056EB2 /* heif_context.h in Headers */,
+				32BF9BC921CCF38A00056EB2 /* box.h in Headers */,
+				32BF9BD821CCF38A00056EB2 /* heif_image.h in Headers */,
+				32BF9BD421CCF38A00056EB2 /* heif_file.h in Headers */,
+				32BF9BC721CCF38A00056EB2 /* bitstream.h in Headers */,
+				32BF9BDD21CCF38A00056EB2 /* heif_plugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32BF98BB21CCE79000056EB2 /* libheif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BF98C421CCE79000056EB2 /* Build configuration list for PBXNativeTarget "libheif" */;
+			buildPhases = (
+				32BF98B721CCE79000056EB2 /* Headers */,
+				32BF98B821CCE79000056EB2 /* Sources */,
+				32BF98B921CCE79000056EB2 /* Frameworks */,
+				32BF98BA21CCE79000056EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libheif;
+			productName = libheif;
+			productReference = 32BF98BC21CCE79000056EB2 /* libheif.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32BF9A9321CCE8B900056EB2 /* libheifExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BF9A9821CCE8B900056EB2 /* Build configuration list for PBXNativeTarget "libheifExample" */;
+			buildPhases = (
+				32BF9A9021CCE8B900056EB2 /* Sources */,
+				32BF9A9121CCE8B900056EB2 /* Frameworks */,
+				32BF9A9221CCE8B900056EB2 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libheifExample;
+			productName = libheifExample;
+			productReference = 32BF9A9421CCE8B900056EB2 /* libheifExample */;
+			productType = "com.apple.product-type.tool";
+		};
+		32BF9B6D21CCF34700056EB2 /* libheif-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BF9B7321CCF34700056EB2 /* Build configuration list for PBXNativeTarget "libheif-iOS" */;
+			buildPhases = (
+				32BF9B6921CCF34700056EB2 /* Headers */,
+				32BF9B6A21CCF34700056EB2 /* Sources */,
+				32BF9B6B21CCF34700056EB2 /* Frameworks */,
+				32BF9B6C21CCF34700056EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libheif-iOS";
+			productName = "libheif-iOS";
+			productReference = 32BF9B6E21CCF34700056EB2 /* libheif.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32BF9B7A21CCF35400056EB2 /* libheif-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BF9B8021CCF35500056EB2 /* Build configuration list for PBXNativeTarget "libheif-tvOS" */;
+			buildPhases = (
+				32BF9B7621CCF35400056EB2 /* Headers */,
+				32BF9B7721CCF35400056EB2 /* Sources */,
+				32BF9B7821CCF35400056EB2 /* Frameworks */,
+				32BF9B7921CCF35400056EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libheif-tvOS";
+			productName = "libheif-tvOS";
+			productReference = 32BF9B7B21CCF35400056EB2 /* libheif.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32BF9B8721CCF36100056EB2 /* libheif-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BF9B8D21CCF36100056EB2 /* Build configuration list for PBXNativeTarget "libheif-watchOS" */;
+			buildPhases = (
+				32BF9B8321CCF36100056EB2 /* Headers */,
+				32BF9B8421CCF36100056EB2 /* Sources */,
+				32BF9B8521CCF36100056EB2 /* Frameworks */,
+				32BF9B8621CCF36100056EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libheif-watchOS";
+			productName = "libheif-watchOS";
+			productReference = 32BF9B8821CCF36100056EB2 /* libheif.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32BF98B321CCE79000056EB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					32BF98BB21CCE79000056EB2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					32BF9A9321CCE8B900056EB2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					32BF9B6D21CCF34700056EB2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					32BF9B7A21CCF35400056EB2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					32BF9B8721CCF36100056EB2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 32BF98B621CCE79000056EB2 /* Build configuration list for PBXProject "libheif" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32BF98B221CCE79000056EB2;
+			productRefGroup = 32BF98BD21CCE79000056EB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32BF98BB21CCE79000056EB2 /* libheif */,
+				32BF9B6D21CCF34700056EB2 /* libheif-iOS */,
+				32BF9B7A21CCF35400056EB2 /* libheif-tvOS */,
+				32BF9B8721CCF36100056EB2 /* libheif-watchOS */,
+				32BF9A9321CCE8B900056EB2 /* libheifExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32BF98BA21CCE79000056EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF9B6C21CCF34700056EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF9B7921CCF35400056EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF9B8621CCF36100056EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32BF98B821CCE79000056EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF9B1521CCEA1A00056EB2 /* heif.cc in Sources */,
+				32BF9B0921CCEA1A00056EB2 /* heif_decoder_libde265.cc in Sources */,
+				32BF9B0C21CCEA1A00056EB2 /* heif_image.cc in Sources */,
+				32BF9B2221CCEA1A00056EB2 /* box.cc in Sources */,
+				32BF9B2021CCEA1A00056EB2 /* heif_plugin.cc in Sources */,
+				32BF9B1721CCEA1A00056EB2 /* bitstream.cc in Sources */,
+				32BF9B1921CCEA1A00056EB2 /* heif_plugin_registry.cc in Sources */,
+				32BF9B2821CCEA1A00056EB2 /* error.cc in Sources */,
+				32BF9B1B21CCEA1A00056EB2 /* heif_hevc.cc in Sources */,
+				32BF9B1221CCEA1A00056EB2 /* heif_file.cc in Sources */,
+				32BF9B1E21CCEA1A00056EB2 /* heif_context.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF9A9021CCE8B900056EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF9A9721CCE8B900056EB2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF9B6A21CCF34700056EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF9BA621CCF38800056EB2 /* heif_plugin.cc in Sources */,
+				32BF9BA421CCF38800056EB2 /* heif_plugin_registry.cc in Sources */,
+				32BF9BA821CCF38800056EB2 /* heif.cc in Sources */,
+				32BF9B9421CCF38800056EB2 /* error.cc in Sources */,
+				32BF9B9D21CCF38800056EB2 /* heif_file.cc in Sources */,
+				32BF9B9A21CCF38800056EB2 /* heif_decoder_libde265.cc in Sources */,
+				32BF9B9021CCF38800056EB2 /* bitstream.cc in Sources */,
+				32BF9B9221CCF38800056EB2 /* box.cc in Sources */,
+				32BF9B9F21CCF38800056EB2 /* heif_hevc.cc in Sources */,
+				32BF9B9721CCF38800056EB2 /* heif_context.cc in Sources */,
+				32BF9BA121CCF38800056EB2 /* heif_image.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF9B7721CCF35400056EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF9BC121CCF38800056EB2 /* heif_plugin.cc in Sources */,
+				32BF9BBF21CCF38800056EB2 /* heif_plugin_registry.cc in Sources */,
+				32BF9BC321CCF38800056EB2 /* heif.cc in Sources */,
+				32BF9BAF21CCF38800056EB2 /* error.cc in Sources */,
+				32BF9BB821CCF38800056EB2 /* heif_file.cc in Sources */,
+				32BF9BB521CCF38800056EB2 /* heif_decoder_libde265.cc in Sources */,
+				32BF9BAB21CCF38800056EB2 /* bitstream.cc in Sources */,
+				32BF9BAD21CCF38800056EB2 /* box.cc in Sources */,
+				32BF9BBA21CCF38800056EB2 /* heif_hevc.cc in Sources */,
+				32BF9BB221CCF38800056EB2 /* heif_context.cc in Sources */,
+				32BF9BBC21CCF38800056EB2 /* heif_image.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF9B8421CCF36100056EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF9BDC21CCF38A00056EB2 /* heif_plugin.cc in Sources */,
+				32BF9BDA21CCF38A00056EB2 /* heif_plugin_registry.cc in Sources */,
+				32BF9BDE21CCF38A00056EB2 /* heif.cc in Sources */,
+				32BF9BCA21CCF38A00056EB2 /* error.cc in Sources */,
+				32BF9BD321CCF38A00056EB2 /* heif_file.cc in Sources */,
+				32BF9BD021CCF38A00056EB2 /* heif_decoder_libde265.cc in Sources */,
+				32BF9BC621CCF38A00056EB2 /* bitstream.cc in Sources */,
+				32BF9BC821CCF38A00056EB2 /* box.cc in Sources */,
+				32BF9BD521CCF38A00056EB2 /* heif_hevc.cc in Sources */,
+				32BF9BCD21CCF38A00056EB2 /* heif_context.cc in Sources */,
+				32BF9BD721CCF38A00056EB2 /* heif_image.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		32BF98C221CCE79000056EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32BF98C321CCE79000056EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32BF98C521CCE79000056EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"HAVE_LIBDE265=1",
+					"HAVE_UNISTD_H=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Xcode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SDWebImage.libheif;
+				PRODUCT_MODULE_NAME = libheif;
+				PRODUCT_NAME = libheif;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		32BF98C621CCE79000056EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_LIBDE265=1",
+					"HAVE_UNISTD_H=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Xcode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SDWebImage.libheif;
+				PRODUCT_MODULE_NAME = libheif;
+				PRODUCT_NAME = libheif;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		32BF9A9921CCE8B900056EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32BF9A9A21CCE8B900056EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32BF9B7421CCF34700056EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"HAVE_LIBDE265=1",
+					"HAVE_UNISTD_H=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Xcode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SDWebImage.libheif-iOS";
+				PRODUCT_MODULE_NAME = libheif;
+				PRODUCT_NAME = libheif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32BF9B7521CCF34700056EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_LIBDE265=1",
+					"HAVE_UNISTD_H=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Xcode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SDWebImage.libheif-iOS";
+				PRODUCT_MODULE_NAME = libheif;
+				PRODUCT_NAME = libheif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32BF9B8121CCF35500056EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"HAVE_LIBDE265=1",
+					"HAVE_UNISTD_H=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Xcode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SDWebImage.libheif-tvOS";
+				PRODUCT_MODULE_NAME = libheif;
+				PRODUCT_NAME = libheif;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		32BF9B8221CCF35500056EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_LIBDE265=1",
+					"HAVE_UNISTD_H=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Xcode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SDWebImage.libheif-tvOS";
+				PRODUCT_MODULE_NAME = libheif;
+				PRODUCT_NAME = libheif;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32BF9B8E21CCF36100056EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"HAVE_LIBDE265=1",
+					"HAVE_UNISTD_H=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Xcode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SDWebImage.libheif-watchOS";
+				PRODUCT_MODULE_NAME = libheif;
+				PRODUCT_NAME = libheif;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		32BF9B8F21CCF36100056EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_LIBDE265=1",
+					"HAVE_UNISTD_H=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Xcode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SDWebImage.libheif-watchOS";
+				PRODUCT_MODULE_NAME = libheif;
+				PRODUCT_NAME = libheif;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32BF98B621CCE79000056EB2 /* Build configuration list for PBXProject "libheif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BF98C221CCE79000056EB2 /* Debug */,
+				32BF98C321CCE79000056EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BF98C421CCE79000056EB2 /* Build configuration list for PBXNativeTarget "libheif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BF98C521CCE79000056EB2 /* Debug */,
+				32BF98C621CCE79000056EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BF9A9821CCE8B900056EB2 /* Build configuration list for PBXNativeTarget "libheifExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BF9A9921CCE8B900056EB2 /* Debug */,
+				32BF9A9A21CCE8B900056EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BF9B7321CCF34700056EB2 /* Build configuration list for PBXNativeTarget "libheif-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BF9B7421CCF34700056EB2 /* Debug */,
+				32BF9B7521CCF34700056EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BF9B8021CCF35500056EB2 /* Build configuration list for PBXNativeTarget "libheif-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BF9B8121CCF35500056EB2 /* Debug */,
+				32BF9B8221CCF35500056EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BF9B8D21CCF36100056EB2 /* Build configuration list for PBXNativeTarget "libheif-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BF9B8E21CCF36100056EB2 /* Debug */,
+				32BF9B8F21CCF36100056EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32BF98B321CCE79000056EB2 /* Project object */;
+}

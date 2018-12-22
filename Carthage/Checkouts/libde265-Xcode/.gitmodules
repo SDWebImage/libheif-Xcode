@@ -1,0 +1,3 @@
+[submodule "libde265"]
+	path = libde265
+	url = https://github.com/strukturag/libde265.git

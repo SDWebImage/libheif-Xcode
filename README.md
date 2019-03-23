@@ -1,10 +1,15 @@
 # libheif + Xcode
 
-A wrapper for [libheif](https://github.com/strukturag/libheif) + Xcode project.
-This enables Carthage support to build libheif as a framework for Apple's platform.
-
 [![CI Status](http://img.shields.io/travis/SDWebImage/libheif-Xcode.svg?style=flat)](https://travis-ci.org/SDWebImage/libheif-Xcode)
+[![Version](https://img.shields.io/cocoapods/v/libheif.svg?style=flat)](http://cocoapods.org/pods/libheif)
+[![License](https://img.shields.io/cocoapods/l/libheif.svg?style=flat)](http://cocoapods.org/pods/libheif)
+[![Platform](https://img.shields.io/cocoapods/p/libheif.svg?style=flat)](http://cocoapods.org/pods/libheif)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/SDWebImage/libheif-Xcode)
+
+A wrapper for [libheif](https://github.com/strukturag/libheif) + Xcode project.
+This enables Carthage support to build libheif as a framework for Apple's platform. 
+
+This repo also including the CocoaPods's spec file to use libheif.
 
 ## Requirements
 
@@ -15,10 +20,20 @@ This enables Carthage support to build libheif as a framework for Apple's platfo
 
 ## Installation
 
+### Carthage
+
 libheif is (via this repo) available through [Carthage](https://github.com/Carthage/Carthage).
 
 ```
 github "SDWebImage/libheif-Xcode"
+```
+
+### CocoaPods
+
+libheif is available through [CocoaPods](https://github.com/CocoaPods/CocoaPods).
+
+```
+pod 'libheif'
 ```
 
 ## Usage

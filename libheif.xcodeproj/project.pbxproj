@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32AE9EC7230971350001ABFF /* heif_colorconversion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AE9EC5230971350001ABFF /* heif_colorconversion.cc */; };
+		32AE9EC8230971350001ABFF /* heif_colorconversion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AE9EC5230971350001ABFF /* heif_colorconversion.cc */; };
+		32AE9EC9230971350001ABFF /* heif_colorconversion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AE9EC5230971350001ABFF /* heif_colorconversion.cc */; };
+		32AE9ECA230971350001ABFF /* heif_colorconversion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AE9EC5230971350001ABFF /* heif_colorconversion.cc */; };
+		32AE9ECB230971350001ABFF /* heif_colorconversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AE9EC6230971350001ABFF /* heif_colorconversion.h */; };
+		32AE9ECC230971350001ABFF /* heif_colorconversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AE9EC6230971350001ABFF /* heif_colorconversion.h */; };
+		32AE9ECD230971350001ABFF /* heif_colorconversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AE9EC6230971350001ABFF /* heif_colorconversion.h */; };
+		32AE9ECE230971350001ABFF /* heif_colorconversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AE9EC6230971350001ABFF /* heif_colorconversion.h */; };
 		32BF9A9721CCE8B900056EB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BF9A9621CCE8B900056EB2 /* main.m */; };
 		32BF9A9E21CCE9A900056EB2 /* libheif.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9A9C21CCE9A900056EB2 /* libheif.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32BF9B0521CCEA1A00056EB2 /* heif_plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BF9AA221CCEA1A00056EB2 /* heif_plugin.h */; };
@@ -148,6 +156,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		32AE9EC5230971350001ABFF /* heif_colorconversion.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_colorconversion.cc; sourceTree = "<group>"; };
+		32AE9EC6230971350001ABFF /* heif_colorconversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_colorconversion.h; sourceTree = "<group>"; };
 		32BF98BC21CCE79000056EB2 /* libheif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libheif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BF9A9421CCE8B900056EB2 /* libheifExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = libheifExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BF9A9621CCE8B900056EB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -238,11 +248,11 @@
 		32BF98B221CCE79000056EB2 = {
 			isa = PBXGroup;
 			children = (
+				32BF9B6221CCEFC100056EB2 /* Frameworks */,
 				32BF9AA021CCEA1A00056EB2 /* libheif */,
-				32BF9A9B21CCE9A900056EB2 /* Xcode */,
 				32BF9A9521CCE8B900056EB2 /* libheifExample */,
 				32BF98BD21CCE79000056EB2 /* Products */,
-				32BF9B6221CCEFC100056EB2 /* Frameworks */,
+				32BF9A9B21CCE9A900056EB2 /* Xcode */,
 			);
 			sourceTree = "<group>";
 		};
@@ -294,6 +304,8 @@
 				32BF9AC521CCEA1A00056EB2 /* error.cc */,
 				32BF9AA321CCEA1A00056EB2 /* error.h */,
 				32BF9AC221CCEA1A00056EB2 /* heif_api_structs.h */,
+				32AE9EC5230971350001ABFF /* heif_colorconversion.cc */,
+				32AE9EC6230971350001ABFF /* heif_colorconversion.h */,
 				32BF9ABB21CCEA1A00056EB2 /* heif_context.cc */,
 				32BF9AC421CCEA1A00056EB2 /* heif_context.h */,
 				32BF9AB121CCEA1A00056EB2 /* heif_cxx.h */,
@@ -340,6 +352,7 @@
 				32BF9B0B21CCEA1A00056EB2 /* heif_limits.h in Headers */,
 				32BF9B1F21CCEA1A00056EB2 /* heif_plugin_registry.h in Headers */,
 				32BF9B0D21CCEA1A00056EB2 /* heif_hevc.h in Headers */,
+				32AE9ECB230971350001ABFF /* heif_colorconversion.h in Headers */,
 				32BF9B6121CCEA8E00056EB2 /* heif_version.h in Headers */,
 				32BF9B2521CCEA1A00056EB2 /* heif_api_structs.h in Headers */,
 				32BF9B0621CCEA1A00056EB2 /* error.h in Headers */,
@@ -365,6 +378,7 @@
 				32BF9B9921CCF38800056EB2 /* heif_cxx.h in Headers */,
 				32BF9BE521CCF39D00056EB2 /* libheif.h in Headers */,
 				32BF9BA521CCF38800056EB2 /* heif_plugin_registry.h in Headers */,
+				32AE9ECC230971350001ABFF /* heif_colorconversion.h in Headers */,
 				32BF9BE121CCF39400056EB2 /* heif_version.h in Headers */,
 				32BF9B9621CCF38800056EB2 /* heif_api_structs.h in Headers */,
 				32BF9B9521CCF38800056EB2 /* error.h in Headers */,
@@ -390,6 +404,7 @@
 				32BF9BB421CCF38800056EB2 /* heif_cxx.h in Headers */,
 				32BF9BE421CCF39D00056EB2 /* libheif.h in Headers */,
 				32BF9BC021CCF38800056EB2 /* heif_plugin_registry.h in Headers */,
+				32AE9ECD230971350001ABFF /* heif_colorconversion.h in Headers */,
 				32BF9BE221CCF39500056EB2 /* heif_version.h in Headers */,
 				32BF9BB121CCF38800056EB2 /* heif_api_structs.h in Headers */,
 				32BF9BB021CCF38800056EB2 /* error.h in Headers */,
@@ -415,6 +430,7 @@
 				32BF9BCF21CCF38A00056EB2 /* heif_cxx.h in Headers */,
 				32BF9BE621CCF39E00056EB2 /* libheif.h in Headers */,
 				32BF9BDB21CCF38A00056EB2 /* heif_plugin_registry.h in Headers */,
+				32AE9ECE230971350001ABFF /* heif_colorconversion.h in Headers */,
 				32BF9BE321CCF39500056EB2 /* heif_version.h in Headers */,
 				32BF9BCC21CCF38A00056EB2 /* heif_api_structs.h in Headers */,
 				32BF9BCB21CCF38A00056EB2 /* error.h in Headers */,
@@ -617,6 +633,7 @@
 				32BF9B1B21CCEA1A00056EB2 /* heif_hevc.cc in Sources */,
 				32BF9B1221CCEA1A00056EB2 /* heif_file.cc in Sources */,
 				32BF9B1E21CCEA1A00056EB2 /* heif_context.cc in Sources */,
+				32AE9EC7230971350001ABFF /* heif_colorconversion.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,6 +660,7 @@
 				32BF9B9F21CCF38800056EB2 /* heif_hevc.cc in Sources */,
 				32BF9B9721CCF38800056EB2 /* heif_context.cc in Sources */,
 				32BF9BA121CCF38800056EB2 /* heif_image.cc in Sources */,
+				32AE9EC8230971350001ABFF /* heif_colorconversion.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,6 +679,7 @@
 				32BF9BBA21CCF38800056EB2 /* heif_hevc.cc in Sources */,
 				32BF9BB221CCF38800056EB2 /* heif_context.cc in Sources */,
 				32BF9BBC21CCF38800056EB2 /* heif_image.cc in Sources */,
+				32AE9EC9230971350001ABFF /* heif_colorconversion.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,6 +698,7 @@
 				32BF9BD521CCF38A00056EB2 /* heif_hevc.cc in Sources */,
 				32BF9BCD21CCF38A00056EB2 /* heif_context.cc in Sources */,
 				32BF9BD721CCF38A00056EB2 /* heif_image.cc in Sources */,
+				32AE9ECA230971350001ABFF /* heif_colorconversion.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

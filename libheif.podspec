@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libheif'
-  s.version          = '1.5.0'
+  s.version          = '1.5.1'
   s.summary          = 'libheif is a ISO/IEC 23008-12:2017 HEIF file format decoder and encoder.'
 
 # This description is used to generate tags and improve search results.

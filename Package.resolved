@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "libde265",
+        "repositoryURL": "https://github.com/SDWebImage/libde265-Xcode.git",
+        "state": {
+          "branch": null,
+          "revision": "39b0430c631669dba8e578a2ececae3a05dbb935",
+          "version": "1.0.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

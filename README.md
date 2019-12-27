@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/libheif.svg?style=flat)](http://cocoapods.org/pods/libheif)
 [![License](https://img.shields.io/cocoapods/l/libheif.svg?style=flat)](http://cocoapods.org/pods/libheif)
 [![Platform](https://img.shields.io/cocoapods/p/libheif.svg?style=flat)](http://cocoapods.org/pods/libheif)
+[![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager/)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/SDWebImage/libheif-Xcode)
 
 A wrapper for [libheif](https://github.com/strukturag/libheif) + Xcode project.
@@ -34,6 +35,18 @@ libheif is available through [CocoaPods](https://github.com/CocoaPods/CocoaPods)
 
 ```
 pod 'libheif'
+```
+
+#### Swift Package Manager (Xcode 11+)
+
+libheif is available through [Swift Package Manager](https://swift.org/package-manager).
+
+```swift
+let package = Package(
+    dependencies: [
+        .package(url: "https://github.com/SDWebImage/libheif-Xcode.git", from: "1.6.1")
+    ]
+)
 ```
 
 ## Usage

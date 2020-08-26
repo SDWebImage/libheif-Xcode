@@ -49,13 +49,25 @@ let package = Package(
 )
 ```
 
-## Usage
+## HEIF Encoding
 
 libheif itself is not a full function decoder but an abstract layer. It needs [libde265](http://www.libde265.org/) for HEIF decoder support, and [x265](http://x265.org/) for HEIF encoder support.
 
+For CocoaPods user, you can use `libx265` subspec to integrate the x265 codec supports for HEIF encoding.
+
+```ruby
+pod 'libavif', :subspecs => ['libde265', 'libx265']
+```
+
 Since most of people's usage of this library is for HEIF decoding, and `x265` is under GPLv2 license, we only integrate libheif with the Carthage dependency [libde265-Xcode](https://github.com/SDWebImage/libde265-Xcode). To use x265 for HEIF encoding, try to build it by your own.
 
-Use libheif as you would normally, this is just a repo that adds an Xcode proj.
+## AVIF
+
+libheif from v1.7.0 added the support for [AV1 Image File Format (AVIF)](https://aomediacodec.github.io/av1-avif). To keep the component functional, we only integrate the AVIF support in CocoaPods via `libaom` subspec.
+
+```ruby
+pod 'libavif', :subspecs => ['libheif', 'libaom']
+```
 
 ## License
 

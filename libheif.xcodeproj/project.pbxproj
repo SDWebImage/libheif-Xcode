@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321E2C4224F6064500F03A4C /* heif_avif.h in Headers */ = {isa = PBXBuildFile; fileRef = 321E2C4024F6064500F03A4C /* heif_avif.h */; };
+		321E2C4324F6064500F03A4C /* heif_avif.h in Headers */ = {isa = PBXBuildFile; fileRef = 321E2C4024F6064500F03A4C /* heif_avif.h */; };
+		321E2C4424F6064500F03A4C /* heif_avif.h in Headers */ = {isa = PBXBuildFile; fileRef = 321E2C4024F6064500F03A4C /* heif_avif.h */; };
+		321E2C4524F6064500F03A4C /* heif_avif.h in Headers */ = {isa = PBXBuildFile; fileRef = 321E2C4024F6064500F03A4C /* heif_avif.h */; };
+		321E2C4624F6064500F03A4C /* heif_avif.cc in Sources */ = {isa = PBXBuildFile; fileRef = 321E2C4124F6064500F03A4C /* heif_avif.cc */; };
+		321E2C4724F6064500F03A4C /* heif_avif.cc in Sources */ = {isa = PBXBuildFile; fileRef = 321E2C4124F6064500F03A4C /* heif_avif.cc */; };
+		321E2C4824F6064500F03A4C /* heif_avif.cc in Sources */ = {isa = PBXBuildFile; fileRef = 321E2C4124F6064500F03A4C /* heif_avif.cc */; };
+		321E2C4924F6064500F03A4C /* heif_avif.cc in Sources */ = {isa = PBXBuildFile; fileRef = 321E2C4124F6064500F03A4C /* heif_avif.cc */; };
 		32AE9EC7230971350001ABFF /* heif_colorconversion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AE9EC5230971350001ABFF /* heif_colorconversion.cc */; };
 		32AE9EC8230971350001ABFF /* heif_colorconversion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AE9EC5230971350001ABFF /* heif_colorconversion.cc */; };
 		32AE9EC9230971350001ABFF /* heif_colorconversion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AE9EC5230971350001ABFF /* heif_colorconversion.cc */; };
@@ -156,6 +164,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		321E2C4024F6064500F03A4C /* heif_avif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_avif.h; sourceTree = "<group>"; };
+		321E2C4124F6064500F03A4C /* heif_avif.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_avif.cc; sourceTree = "<group>"; };
 		32AE9EC5230971350001ABFF /* heif_colorconversion.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_colorconversion.cc; sourceTree = "<group>"; };
 		32AE9EC6230971350001ABFF /* heif_colorconversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_colorconversion.h; sourceTree = "<group>"; };
 		32B35E7623B600E8008A3B8E /* heif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif.h; sourceTree = "<group>"; };
@@ -320,6 +330,8 @@
 				32BF9AA421CCEA1A00056EB2 /* box.h */,
 				32BF9AC521CCEA1A00056EB2 /* error.cc */,
 				32BF9AA321CCEA1A00056EB2 /* error.h */,
+				321E2C4124F6064500F03A4C /* heif_avif.cc */,
+				321E2C4024F6064500F03A4C /* heif_avif.h */,
 				32BF9AC221CCEA1A00056EB2 /* heif_api_structs.h */,
 				32AE9EC5230971350001ABFF /* heif_colorconversion.cc */,
 				32AE9EC6230971350001ABFF /* heif_colorconversion.h */,
@@ -382,6 +394,7 @@
 				32BF9B0521CCEA1A00056EB2 /* heif_plugin.h in Headers */,
 				32BF9B1621CCEA1A00056EB2 /* logging.h in Headers */,
 				32BF9B1421CCEA1A00056EB2 /* heif_cxx.h in Headers */,
+				321E2C4224F6064500F03A4C /* heif_avif.h in Headers */,
 				32BF9B2621CCEA1A00056EB2 /* heif_image.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +421,7 @@
 				32BF9BA221CCF38800056EB2 /* heif_image.h in Headers */,
 				32BF9B9E21CCF38800056EB2 /* heif_file.h in Headers */,
 				32BF9B9121CCF38800056EB2 /* bitstream.h in Headers */,
+				321E2C4324F6064500F03A4C /* heif_avif.h in Headers */,
 				32BF9BA721CCF38800056EB2 /* heif_plugin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +448,7 @@
 				32BF9BBD21CCF38800056EB2 /* heif_image.h in Headers */,
 				32BF9BB921CCF38800056EB2 /* heif_file.h in Headers */,
 				32BF9BAC21CCF38800056EB2 /* bitstream.h in Headers */,
+				321E2C4424F6064500F03A4C /* heif_avif.h in Headers */,
 				32BF9BC221CCF38800056EB2 /* heif_plugin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +475,7 @@
 				32BF9BD821CCF38A00056EB2 /* heif_image.h in Headers */,
 				32BF9BD421CCF38A00056EB2 /* heif_file.h in Headers */,
 				32BF9BC721CCF38A00056EB2 /* bitstream.h in Headers */,
+				321E2C4524F6064500F03A4C /* heif_avif.h in Headers */,
 				32BF9BDD21CCF38A00056EB2 /* heif_plugin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -638,6 +654,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				321E2C4624F6064500F03A4C /* heif_avif.cc in Sources */,
 				32BF9B1521CCEA1A00056EB2 /* heif.cc in Sources */,
 				32BF9B0921CCEA1A00056EB2 /* heif_decoder_libde265.cc in Sources */,
 				32BF9B0C21CCEA1A00056EB2 /* heif_image.cc in Sources */,
@@ -665,6 +682,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				321E2C4724F6064500F03A4C /* heif_avif.cc in Sources */,
 				32BF9BA621CCF38800056EB2 /* heif_plugin.cc in Sources */,
 				32BF9BA421CCF38800056EB2 /* heif_plugin_registry.cc in Sources */,
 				32BF9BA821CCF38800056EB2 /* heif.cc in Sources */,
@@ -684,6 +702,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				321E2C4824F6064500F03A4C /* heif_avif.cc in Sources */,
 				32BF9BC121CCF38800056EB2 /* heif_plugin.cc in Sources */,
 				32BF9BBF21CCF38800056EB2 /* heif_plugin_registry.cc in Sources */,
 				32BF9BC321CCF38800056EB2 /* heif.cc in Sources */,
@@ -703,6 +722,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				321E2C4924F6064500F03A4C /* heif_avif.cc in Sources */,
 				32BF9BDC21CCF38A00056EB2 /* heif_plugin.cc in Sources */,
 				32BF9BDA21CCF38A00056EB2 /* heif_plugin_registry.cc in Sources */,
 				32BF9BDE21CCF38A00056EB2 /* heif.cc in Sources */,

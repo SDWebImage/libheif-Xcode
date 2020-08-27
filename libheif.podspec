@@ -33,7 +33,7 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
 
   s.subspec 'libheif' do |ss|
     ss.source_files = 'libheif/*.{h,c,cc}'
-    ss.exclude_files = 'libheif/*fuzzer.{h,c,cc}', 'libheif/heif_decoder_libde265.{h,c,cc}', 'libheif/heif_encoder_x265.{h,c,cc}', 'libheif/heif_encoder_aom.{h,c,cc}, libheif/heif_decoder_aom.{h,c,cc}'
+    ss.exclude_files = 'libheif/*fuzzer.{h,c,cc}', 'libheif/heif_decoder_libde265.{h,c,cc}', 'libheif/heif_encoder_x265.{h,c,cc}', 'libheif/heif_encoder_aom.{h,c,cc}', 'libheif/heif_decoder_aom.{h,c,cc}'
     ss.public_header_files = 'libheif/heif.h', 'libheif/heif_version.h'
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
@@ -72,7 +72,7 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
   s.subspec 'libaom' do |ss|
     ss.dependency 'libaom'
     ss.dependency 'libheif/libheif'
-    ss.source_files = 'libheif/heif_encoder_aom.{h,c,cc}, libheif/heif_decoder_aom.{h,c,cc}'
+    ss.source_files = 'libheif/heif_encoder_aom.{h,c,cc}', 'libheif/heif_decoder_aom.{h,c,cc}'
     ss.private_header_files = 'libheif/heif_encoder_aom.h'
     ss.preserve_path = 'libheif'
     ss.xcconfig = {

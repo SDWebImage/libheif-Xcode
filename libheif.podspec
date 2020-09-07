@@ -26,11 +26,12 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
   s.author           = { 'struktur AG' => 'opensource@struktur.de' }
   s.source           = { :git => 'https://github.com/strukturag/libheif', :tag => 'v' + s.version.to_s }
 
+  s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.7'
+  s.tvos.deployment_target = '9.0'
+  s.watchos.deployment_target = '2.0'
+
   s.subspec 'libheif' do |ss|
-    ss.ios.deployment_target = '8.0'
-    ss.osx.deployment_target = '10.7'
-    ss.tvos.deployment_target = '9.0'
-    ss.watchos.deployment_target = '2.0'
     ss.source_files = 'libheif/*.{h,c,cc}'
     ss.exclude_files = 'libheif/*fuzzer.{h,c,cc}', 'libheif/heif_decoder_libde265.{h,c,cc}', 'libheif/heif_encoder_x265.{h,c,cc}', 'libheif/heif_encoder_aom.{h,c,cc}', 'libheif/heif_decoder_aom.{h,c,cc}', 'libheif/heif_encoder_rav1e.{h,c,cc}'
     ss.public_header_files = 'libheif/heif.h', 'libheif/heif_version.h'
@@ -43,10 +44,6 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
 
   # libde265 decoder
   s.subspec 'libde265' do |ss|
-    ss.ios.deployment_target = '8.0'
-    ss.osx.deployment_target = '10.7'
-    ss.tvos.deployment_target = '9.0'
-    ss.watchos.deployment_target = '2.0'
     ss.dependency 'libde265'
     ss.dependency 'libheif/libheif'
     ss.source_files = 'libheif/heif_decoder_libde265.{h,c,cc}'
@@ -60,10 +57,6 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
 
   # libx265 encoder
   s.subspec 'libx265' do |ss|
-    ss.ios.deployment_target = '8.0'
-    ss.osx.deployment_target = '10.7'
-    ss.tvos.deployment_target = '9.0'
-    ss.watchos.deployment_target = '2.0'
     ss.dependency 'libx265'
     ss.dependency 'libheif/libheif'
     ss.source_files = 'libheif/heif_encoder_x265.{h,c,cc}'
@@ -77,10 +70,6 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
 
   # libaom decoder and encoder, for AVIF
   s.subspec 'libaom' do |ss|
-    ss.ios.deployment_target = '8.0'
-    ss.osx.deployment_target = '10.7'
-    ss.tvos.deployment_target = '9.0'
-    ss.watchos.deployment_target = '2.0'
     ss.dependency 'libaom'
     ss.dependency 'libheif/libheif'
     ss.source_files = 'libheif/heif_encoder_aom.{h,c,cc}', 'libheif/heif_decoder_aom.{h,c,cc}'

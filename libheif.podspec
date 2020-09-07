@@ -33,7 +33,7 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
 
   s.subspec 'libheif' do |ss|
     ss.source_files = 'libheif/*.{h,c,cc}'
-    ss.exclude_files = 'libheif/*fuzzer.{h,c,cc}', 'libheif/heif_decoder_libde265.{h,c,cc}', 'libheif/heif_encoder_x265.{h,c,cc}', 'libheif/heif_encoder_aom.{h,c,cc}', 'libheif/heif_decoder_aom.{h,c,cc}'
+    ss.exclude_files = 'libheif/*fuzzer.{h,c,cc}', 'libheif/heif_decoder_libde265.{h,c,cc}', 'libheif/heif_encoder_x265.{h,c,cc}', 'libheif/heif_encoder_aom.{h,c,cc}', 'libheif/heif_decoder_aom.{h,c,cc}', 'libheif/heif_encoder_rav1e.{h,c,cc}'
     ss.public_header_files = 'libheif/heif.h', 'libheif/heif_version.h'
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
@@ -81,6 +81,19 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
     }
   end
 
+  # rav1e encoder, for AVIF
+  s.subspec 'librav1e' do |ss|
+    ss.dependency 'librav1e'
+  	ss.dependency 'libheif/libheif'
+  	ss.source_files = 'libheif/heif_encoder_rav1e.{h,c,cc}'
+    ss.private_header_files = 'libheif/heif_encoder_rav1e.h'
+    ss.preserve_path = 'libheif'
+    ss.xcconfig = {
+      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_RAV1E=1',
+      'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libheif/ ${PODS_TARGET_SRCROOT}/ ${PODS_ROOT}/librav1e/' # Fix #include <rav1e.h>
+    }
+  end
+
   # default contains only decoder
   s.default_subspecs = 'libde265'
   s.libraries = 'c++'
@@ -92,5 +105,6 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
                       sed -i.bak 's/#define[[:space:]]LIBHEIF_NUMERIC_VERSION.*/#define LIBHEIF_NUMERIC_VERSION 0x01070000/g' './libheif/heif_version.h'
                       sed -i.bak 's/#define[[:space:]]LIBHEIF_VERSION.*/#define LIBHEIF_VERSION "#{s.version}"/g' './libheif/heif_version.h'
                       sed -i.bak 's/<libheif\\/heif_version.h>/"heif_version.h"/g' './libheif/heif.h'
+                      sed -i.bak 's/\\"rav1e\\/rav1e.h\\"/\\"librav1e\\/rav1e.h\\"/g' './libheif/heif_encoder_rav1e.cc || true'
                       CMD
 end

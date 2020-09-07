@@ -61,12 +61,28 @@ pod 'libavif', :subspecs => ['libde265', 'libx265']
 
 Since most of people's usage of this library is for HEIF decoding, and `x265` is under GPLv2 license, we only integrate libheif with the Carthage dependency [libde265-Xcode](https://github.com/SDWebImage/libde265-Xcode). To use x265 for HEIF encoding, try to build it by your own.
 
-## AVIF
+## AVIF Decoding
 
 libheif from v1.7.0 added the support for [AV1 Image File Format (AVIF)](https://aomediacodec.github.io/av1-avif). To keep the component functional, we only integrate the AVIF support in CocoaPods via `libaom` subspec.
 
 ```ruby
-pod 'libavif', :subspecs => ['libheif', 'libaom']
+pod 'libavif', :subspecs => ['libaom']
+```
+
+## AVIF Encoding
+
+libheif from v1.7.0 added the support to use `libaom` as the default AVIF encoder codec. However, libaom performent so well on most mobile system.
+
+There is another AVIF encoder codec, [rav1e](https://github.com/xiph/rav1e). Which added from v1.8.0 version. For CocoaPods, you can choose to use via `librav1e` subspec.
+
+```ruby
+pod 'libavif', :subspecs => ['librav1e']
+```
+
+Note, rav1e only supports AVIF encoding, for AVIF decoding, you still need aom.
+
+```ruby
+pod 'libavif', :subspecs => ['libaom', 'librav1e']
 ```
 
 ## License

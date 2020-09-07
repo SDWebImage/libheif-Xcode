@@ -79,7 +79,10 @@ There is another AVIF encoder codec, [rav1e](https://github.com/xiph/rav1e). Whi
 pod 'libavif', :subspecs => ['librav1e']
 ```
 
-Note, rav1e only supports AVIF encoding, for AVIF decoding, you still need aom.
+Notes:
+
+1. rav1e supports iOS and macOS only, because Rust language does not supports tvOS or watchOS bitcode format.
+2. rav1e only supports AVIF encoding, for AVIF decoding, you still need aom.
 
 ```ruby
 pod 'libavif', :subspecs => ['libaom', 'librav1e']

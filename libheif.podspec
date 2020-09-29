@@ -98,7 +98,7 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
   s.subspec 'librav1e' do |ss|
     # rav1e use Rust, which does not supports tvOS && watchOS because of bitcode
     ss.ios.deployment_target = '8.0'
-    ss.osx.deployment_target = '10.7'
+    ss.osx.deployment_target = '10.10'
     ss.dependency 'librav1e'
   	ss.dependency 'libheif/libheif'
   	ss.source_files = 'libheif/heif_encoder_rav1e.{h,c,cc}'

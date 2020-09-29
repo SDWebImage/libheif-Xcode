@@ -69,6 +69,14 @@ libheif from v1.7.0 added the support for [AV1 Image File Format (AVIF)](https:/
 pod 'libavif', :subspecs => ['libaom']
 ```
 
+libheif from v1.9.0 added the support to use [dav1d](https://code.videolan.org/videolan/dav1d) as AVIF decoder codec.
+
+To use dav1d as decoder codec, use the subspec like this:
+
+```ruby
+pod 'libavif', :subspecs => ['libdav1d']
+```
+
 ## AVIF Encoding
 
 libheif from v1.7.0 added the support to use `libaom` as the default AVIF encoder codec. However, libaom performent so well on most mobile system.
@@ -82,9 +90,11 @@ pod 'libavif', :subspecs => ['librav1e']
 Notes:
 
 1. rav1e supports iOS and macOS only, because Rust language does not supports tvOS or watchOS bitcode format.
-2. rav1e only supports AVIF encoding, for AVIF decoding, you still need aom.
+2. rav1e only supports AVIF encoding, for AVIF decoding, you can choose to use aom, or dav1d
 
 ```ruby
+pod 'libavif', :subspecs => ['libdav1d', 'librav1e']
+# or if you prefer aom
 pod 'libavif', :subspecs => ['libaom', 'librav1e']
 ```
 

@@ -33,7 +33,7 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
 
   s.subspec 'libheif' do |ss|
     ss.source_files = 'libheif/*.{h,c,cc}'
-    ss.exclude_files = 'libheif/*fuzzer.{h,c,cc}', 'libheif/heif_decoder_libde265.{h,c,cc}', 'libheif/heif_encoder_x265.{h,c,cc}', 'libheif/heif_encoder_aom.{h,c,cc}', 'libheif/heif_decoder_aom.{h,c,cc}', 'libheif/heif_encoder_rav1e.{h,c,cc}'
+    ss.exclude_files = 'libheif/*fuzzer.{h,c,cc}', 'libheif/heif_decoder_libde265.{h,c,cc}', 'libheif/heif_encoder_x265.{h,c,cc}', 'libheif/heif_encoder_aom.{h,c,cc}', 'libheif/heif_decoder_aom.{h,c,cc}', 'libheif/heif_decoder_dav1d.{h,c,cc}', 'libheif/heif_encoder_rav1e.{h,c,cc}'
     ss.public_header_files = 'libheif/heif.h', 'libheif/heif_version.h'
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
@@ -78,6 +78,19 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
     ss.xcconfig = {
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_AOM=1',
       'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libheif/ ${PODS_TARGET_SRCROOT}/ ${PODS_ROOT}/libaom/aom/' # Fix #include <aom.h>
+    }
+  end
+
+  # dav1d decoder, for AVIF
+  s.subspec 'libdav1d' do |ss|
+    ss.dependency 'libdav1d', '>= 0.6.0'
+    ss.dependency 'libheif/libheif'
+    ss.source_files = 'libheif/heif_decoder_dav1d.{h,c,cc}'
+    ss.private_header_files = 'libheif/heif_decoder_dav1d.h'
+    ss.preserve_path = 'libheif'
+    ss.xcconfig = {
+      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_DAV1D=1',
+      'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libheif/ ${PODS_TARGET_SRCROOT}/ ${PODS_ROOT}/libdav1d/dav1d/include' # Fix #include <dav1d.h>
     }
   end
 

@@ -27,7 +27,7 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
   s.source           = { :git => 'https://github.com/strukturag/libheif', :tag => 'v' + s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.7'
+  s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
@@ -83,7 +83,7 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
 
   # dav1d decoder, for AVIF
   s.subspec 'libdav1d' do |ss|
-    ss.dependency 'libdav1d', '>= 0.6.0'
+    ss.dependency 'libdav1d', '>= 0.7.1'
     ss.dependency 'libheif/libheif'
     ss.source_files = 'libheif/heif_decoder_dav1d.{h,c,cc}'
     ss.private_header_files = 'libheif/heif_decoder_dav1d.h'

@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/SDWebImage/libde265-Xcode.git",
         "state": {
           "branch": null,
-          "revision": "39b0430c631669dba8e578a2ececae3a05dbb935",
-          "version": "1.0.4"
+          "revision": "32508f7b91f74fddbac411b0c750392ae08c8f35",
+          "version": "1.0.9-beta"
         }
       }
     ]

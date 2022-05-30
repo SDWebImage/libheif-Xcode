@@ -28,9 +28,9 @@
 #define LIBHEIF_HEIF_VERSION_H
 
 /* Numeric representation of the version */
-#define LIBHEIF_NUMERIC_VERSION 0x01090100
+#define LIBHEIF_NUMERIC_VERSION 0x01100000
 
 /* Version string */
-#define LIBHEIF_VERSION "1.9.1"
+#define LIBHEIF_VERSION "1.10.0"
 
 #endif  // LIBHEIF_HEIF_VERSION_H

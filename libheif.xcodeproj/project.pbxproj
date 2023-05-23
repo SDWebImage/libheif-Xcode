@@ -155,6 +155,14 @@
 		32BF9BEE21CCF62A00056EB2 /* libde265.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BF9BED21CCF62A00056EB2 /* libde265.framework */; };
 		32BF9BF021CCF63800056EB2 /* libde265.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BF9BEF21CCF63800056EB2 /* libde265.framework */; };
 		32BF9BF221CCF64300056EB2 /* libde265.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BF9BF121CCF64300056EB2 /* libde265.framework */; };
+		32FA2ECF2A1C98AE00A15F1C /* heif_init.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FA2ECD2A1C98AE00A15F1C /* heif_init.h */; };
+		32FA2ED02A1C98AE00A15F1C /* heif_init.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FA2ECD2A1C98AE00A15F1C /* heif_init.h */; };
+		32FA2ED12A1C98AE00A15F1C /* heif_init.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FA2ECD2A1C98AE00A15F1C /* heif_init.h */; };
+		32FA2ED22A1C98AE00A15F1C /* heif_init.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FA2ECD2A1C98AE00A15F1C /* heif_init.h */; };
+		32FA2ED32A1C98AE00A15F1C /* heif_init.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32FA2ECE2A1C98AE00A15F1C /* heif_init.cc */; };
+		32FA2ED42A1C98AE00A15F1C /* heif_init.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32FA2ECE2A1C98AE00A15F1C /* heif_init.cc */; };
+		32FA2ED52A1C98AE00A15F1C /* heif_init.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32FA2ECE2A1C98AE00A15F1C /* heif_init.cc */; };
+		32FA2ED62A1C98AE00A15F1C /* heif_init.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32FA2ECE2A1C98AE00A15F1C /* heif_init.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -218,6 +226,8 @@
 		32BF9BED21CCF62A00056EB2 /* libde265.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libde265.framework; path = Carthage/Build/iOS/libde265.framework; sourceTree = "<group>"; };
 		32BF9BEF21CCF63800056EB2 /* libde265.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libde265.framework; path = Carthage/Build/tvOS/libde265.framework; sourceTree = "<group>"; };
 		32BF9BF121CCF64300056EB2 /* libde265.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libde265.framework; path = Carthage/Build/watchOS/libde265.framework; sourceTree = "<group>"; };
+		32FA2ECD2A1C98AE00A15F1C /* heif_init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_init.h; sourceTree = "<group>"; };
+		32FA2ECE2A1C98AE00A15F1C /* heif_init.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_init.cc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,6 +367,8 @@
 				32BF9AAA21CCEA1A00056EB2 /* heif_hevc.h */,
 				32BF9AA921CCEA1A00056EB2 /* heif_image.cc */,
 				32BF9AC321CCEA1A00056EB2 /* heif_image.h */,
+				32FA2ECE2A1C98AE00A15F1C /* heif_init.cc */,
+				32FA2ECD2A1C98AE00A15F1C /* heif_init.h */,
 				32BF9AA821CCEA1A00056EB2 /* heif_limits.h */,
 				32BF9AB621CCEA1A00056EB2 /* heif_plugin_registry.cc */,
 				32BF9ABC21CCEA1A00056EB2 /* heif_plugin_registry.h */,
@@ -408,6 +420,7 @@
 				32BF9B1621CCEA1A00056EB2 /* logging.h in Headers */,
 				32BF9B1421CCEA1A00056EB2 /* heif_cxx.h in Headers */,
 				321E2C4224F6064500F03A4C /* heif_avif.h in Headers */,
+				32FA2ECF2A1C98AE00A15F1C /* heif_init.h in Headers */,
 				32BF9B2621CCEA1A00056EB2 /* heif_image.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +449,7 @@
 				32BF9B9E21CCF38800056EB2 /* heif_file.h in Headers */,
 				32BF9B9121CCF38800056EB2 /* bitstream.h in Headers */,
 				321E2C4324F6064500F03A4C /* heif_avif.h in Headers */,
+				32FA2ED02A1C98AE00A15F1C /* heif_init.h in Headers */,
 				32BF9BA721CCF38800056EB2 /* heif_plugin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +478,7 @@
 				32BF9BB921CCF38800056EB2 /* heif_file.h in Headers */,
 				32BF9BAC21CCF38800056EB2 /* bitstream.h in Headers */,
 				321E2C4424F6064500F03A4C /* heif_avif.h in Headers */,
+				32FA2ED12A1C98AE00A15F1C /* heif_init.h in Headers */,
 				32BF9BC221CCF38800056EB2 /* heif_plugin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +507,7 @@
 				32BF9BD421CCF38A00056EB2 /* heif_file.h in Headers */,
 				32BF9BC721CCF38A00056EB2 /* bitstream.h in Headers */,
 				321E2C4524F6064500F03A4C /* heif_avif.h in Headers */,
+				32FA2ED22A1C98AE00A15F1C /* heif_init.h in Headers */,
 				32BF9BDD21CCF38A00056EB2 /* heif_plugin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -674,6 +690,7 @@
 				321E2C4624F6064500F03A4C /* heif_avif.cc in Sources */,
 				32BF9B1521CCEA1A00056EB2 /* heif.cc in Sources */,
 				32BF9B0921CCEA1A00056EB2 /* heif_decoder_libde265.cc in Sources */,
+				32FA2ED32A1C98AE00A15F1C /* heif_init.cc in Sources */,
 				32BF9B0C21CCEA1A00056EB2 /* heif_image.cc in Sources */,
 				32BF9B2221CCEA1A00056EB2 /* box.cc in Sources */,
 				32BF9B2021CCEA1A00056EB2 /* heif_plugin.cc in Sources */,
@@ -703,6 +720,7 @@
 				321E2C4724F6064500F03A4C /* heif_avif.cc in Sources */,
 				32BF9BA621CCF38800056EB2 /* heif_plugin.cc in Sources */,
 				32BF9BA421CCF38800056EB2 /* heif_plugin_registry.cc in Sources */,
+				32FA2ED42A1C98AE00A15F1C /* heif_init.cc in Sources */,
 				32BF9BA821CCF38800056EB2 /* heif.cc in Sources */,
 				32BF9B9421CCF38800056EB2 /* error.cc in Sources */,
 				32BF9B9D21CCF38800056EB2 /* heif_file.cc in Sources */,
@@ -724,6 +742,7 @@
 				321E2C4824F6064500F03A4C /* heif_avif.cc in Sources */,
 				32BF9BC121CCF38800056EB2 /* heif_plugin.cc in Sources */,
 				32BF9BBF21CCF38800056EB2 /* heif_plugin_registry.cc in Sources */,
+				32FA2ED52A1C98AE00A15F1C /* heif_init.cc in Sources */,
 				32BF9BC321CCF38800056EB2 /* heif.cc in Sources */,
 				32BF9BAF21CCF38800056EB2 /* error.cc in Sources */,
 				32BF9BB821CCF38800056EB2 /* heif_file.cc in Sources */,
@@ -745,6 +764,7 @@
 				321E2C4924F6064500F03A4C /* heif_avif.cc in Sources */,
 				32BF9BDC21CCF38A00056EB2 /* heif_plugin.cc in Sources */,
 				32BF9BDA21CCF38A00056EB2 /* heif_plugin_registry.cc in Sources */,
+				32FA2ED62A1C98AE00A15F1C /* heif_init.cc in Sources */,
 				32BF9BDE21CCF38A00056EB2 /* heif.cc in Sources */,
 				32BF9BCA21CCF38A00056EB2 /* error.cc in Sources */,
 				32BF9BD321CCF38A00056EB2 /* heif_file.cc in Sources */,

@@ -118,9 +118,8 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
   # fix #include <libheif/heif_version.h> cause 'Include of non-modular header inside framework module error'
   s.prepare_command = <<-CMD
                       cp './libheif/heif_version.h.in' './libheif/heif_version.h'
-                      sed -i.bak 's/#define[[:space:]]LIBHEIF_NUMERIC_VERSION.*/#define LIBHEIF_NUMERIC_VERSION 0x01090000/g' './libheif/heif_version.h'
+                      sed -i.bak 's/#define[[:space:]]LIBHEIF_NUMERIC_VERSION.*/#define LIBHEIF_NUMERIC_VERSION 0x01130000/g' './libheif/heif_version.h'
                       sed -i.bak 's/#define[[:space:]]LIBHEIF_VERSION.*/#define LIBHEIF_VERSION "#{s.version}"/g' './libheif/heif_version.h'
                       sed -i.bak 's/<libheif\\/heif_version.h>/"heif_version.h"/g' './libheif/heif.h'
-                      sed -i.bak 's/\\"rav1e\\/rav1e.h\\"/\\"librav1e\\/rav1e.h\\"/g' './libheif/heif_encoder_rav1e.cc' || true
                       CMD
 end

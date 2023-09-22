@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libheif'
-  s.version          = '1.12.0'
+  s.version          = '1.13.0'
   s.summary          = 'libheif is a ISO/IEC 23008-12:2017 HEIF file format decoder and encoder.'
 
 # This description is used to generate tags and improve search results.
@@ -121,5 +121,6 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
                       sed -i.bak 's/#define[[:space:]]LIBHEIF_NUMERIC_VERSION.*/#define LIBHEIF_NUMERIC_VERSION 0x01130000/g' './libheif/heif_version.h'
                       sed -i.bak 's/#define[[:space:]]LIBHEIF_VERSION.*/#define LIBHEIF_VERSION "#{s.version}"/g' './libheif/heif_version.h'
                       sed -i.bak 's/<libheif\\/heif_version.h>/"heif_version.h"/g' './libheif/heif.h'
+                      sed -i.bak 's/\\"rav1e.h\\"/\\"librav1e\\/rav1e.h\\"/g' './libheif/heif_encoder_rav1e.cc' || true
                       CMD
 end

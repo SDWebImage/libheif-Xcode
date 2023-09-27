@@ -33,7 +33,7 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
 
   s.subspec 'libheif' do |ss|
     ss.source_files = 'libheif/*.{h,c,cc}'
-    ss.exclude_files = 'libheif/*fuzzer.{h,c,cc}', 'libheif/plugins/heif_decoder_libde265.{h,c,cc}', 'libheif/plugins/heif_encoder_x265.{h,c,cc}', 'libheif/plugins/heif_encoder_aom.{h,c,cc}', 'libheif/plugins/heif_decoder_aom.{h,c,cc}', 'libheif/plugins/heif_decoder_dav1d.{h,c,cc}', 'libheif/plugins/heif_encoder_rav1e.{h,c,cc}', 'libheif/plugins_windows.{h,c,cc}', 'libheif/plugins_unix.{h,c,cc}'
+    ss.exclude_files = 'libheif/plugins/decoder_libde265.{h,c,cc}', 'libheif/plugins/encoder_x265.{h,c,cc}', 'libheif/plugins/encoder_aom.{h,c,cc}', 'libheif/plugins/decoder_aom.{h,c,cc}', 'libheif/plugins/decoder_dav1d.{h,c,cc}', 'libheif/plugins/encoder_rav1e.{h,c,cc}', 'libheif/plugins_windows.{h,c,cc}', 'libheif/plugins_unix.{h,c,cc}'
     ss.public_header_files = 'libheif/heif.h', 'libheif/plugins/heif_version.h'
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
@@ -46,8 +46,8 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
   s.subspec 'libde265' do |ss|
     ss.dependency 'libde265', '>= 1.0.9-beta'
     ss.dependency 'libheif/libheif'
-    ss.source_files = 'libheif/plugins/heif_decoder_libde265.{h,c,cc}'
-    ss.private_header_files = 'libheif/plugins/heif_decoder_libde265.h'
+    ss.source_files = 'libheif/plugins/decoder_libde265.{h,c,cc}'
+    ss.private_header_files = 'libheif/plugins/decoder_libde265.h'
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_LIBDE265=1',
@@ -59,8 +59,8 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
   s.subspec 'libx265' do |ss|
     ss.dependency 'libx265'
     ss.dependency 'libheif/libheif'
-    ss.source_files = 'libheif/plugins/heif_encoder_x265.{h,c,cc}'
-    ss.private_header_files = 'libheif/plugins/heif_encoder_x265.h'
+    ss.source_files = 'libheif/plugins/encoder_x265.{h,c,cc}'
+    ss.private_header_files = 'libheif/plugins/encoder_x265.h'
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_X265=1',
@@ -72,8 +72,8 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
   s.subspec 'libaom' do |ss|
     ss.dependency 'libaom'
     ss.dependency 'libheif/libheif'
-    ss.source_files = 'libheif/plugins/heif_encoder_aom.{h,c,cc}', 'libheif/plugins/heif_decoder_aom.{h,c,cc}'
-    ss.private_header_files = 'libheif/plugins/heif_encoder_aom.h'
+    ss.source_files = 'libheif/plugins/encoder_aom.{h,c,cc}', 'libheif/plugins/decoder_aom.{h,c,cc}'
+    ss.private_header_files = 'libheif/plugins/encoder_aom.h'
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_AOM_DECODER=1 HAVE_AOM_ENCODER=1',
@@ -85,8 +85,8 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
   s.subspec 'libdav1d' do |ss|
     ss.dependency 'libdav1d', '>= 0.7.1'
     ss.dependency 'libheif/libheif'
-    ss.source_files = 'libheif/plugins/heif_decoder_dav1d.{h,c,cc}'
-    ss.private_header_files = 'libheif/plugins/heif_decoder_dav1d.h'
+    ss.source_files = 'libheif/plugins/decoder_dav1d.{h,c,cc}'
+    ss.private_header_files = 'libheif/plugins/decoder_dav1d.h'
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_DAV1D=1',
@@ -101,8 +101,8 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
     ss.osx.deployment_target = '10.10'
     ss.dependency 'librav1e'
   	ss.dependency 'libheif/libheif'
-    ss.source_files = 'libheif/plugins/heif_encoder_rav1e.{h,c,cc}'
-    ss.private_header_files = 'libheif/plugins/heif_encoder_rav1e.h'
+    ss.source_files = 'libheif/plugins/encoder_rav1e.{h,c,cc}'
+    ss.private_header_files = 'libheif/plugins/encoder_rav1e.h'
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_RAV1E=1',
@@ -114,8 +114,8 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
   s.subspec 'svt-av1' do |ss|
     ss.dependency 'svt-av1', '>= 0.9.0'
     ss.dependency 'libheif/libheif'
-    ss.source_files = 'libheif/plugins/heif_encoder_svt.{h,c,cc}'
-    ss.private_header_files = 'libheif/plugins/heif_encoder_svt.h'
+    ss.source_files = 'libheif/plugins/encoder_svt.{h,c,cc}'
+    ss.private_header_files = 'libheif/plugins/encoder_svt.h'
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_SvtEnc=1',
@@ -134,6 +134,6 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
                       sed -i.bak 's/#define[[:space:]]LIBHEIF_NUMERIC_VERSION.*/#define LIBHEIF_NUMERIC_VERSION 0x01152000/g' './libheif/heif_version.h'
                       sed -i.bak 's/#define[[:space:]]LIBHEIF_VERSION.*/#define LIBHEIF_VERSION "#{s.version}"/g' './libheif/heif_version.h'
                       sed -i.bak 's/<libheif\\/heif_version.h>/"heif_version.h"/g' './libheif/heif.h'
-                      sed -i.bak 's/\\"rav1e.h\\"/\\"librav1e\\/rav1e.h\\"/g' './libheif/plugins/heif_encoder_rav1e.cc' || true
+                      sed -i.bak 's/\\"rav1e.h\\"/\\"librav1e\\/rav1e.h\\"/g' './libheif/plugins/encoder_rav1e.cc' || true
                       CMD
 end

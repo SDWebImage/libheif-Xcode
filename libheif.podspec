@@ -76,8 +76,8 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
     ss.private_header_files = 'libheif/plugins/heif_encoder_aom.h'
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
-      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_AOM=1',
-      'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libheif/ ${PODS_TARGET_SRCROOT}/ ${PODS_ROOT}/libaom/aom/' # Fix #include <aom.h>
+      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_AOM_DECODER=1 HAVE_AOM_ENCODER=1',
+      'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libheif/ ${PODS_TARGET_SRCROOT}/'
     }
   end
 
@@ -90,7 +90,7 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_DAV1D=1',
-      'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libheif/ ${PODS_TARGET_SRCROOT}/ ${PODS_ROOT}/libdav1d/dav1d/include' # Fix #include <dav1d.h>
+      'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libheif/ ${PODS_TARGET_SRCROOT}/'
     }
   end
 
@@ -106,7 +106,20 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_RAV1E=1',
-      'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libheif/ ${PODS_TARGET_SRCROOT}/ ${PODS_ROOT}/librav1e/' # Fix #include <rav1e.h>
+      'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libheif/ ${PODS_TARGET_SRCROOT}/'
+    }
+  end
+
+  # svt-av1, for AVIF
+  s.subspec 'svt-av1' do |ss|
+    ss.dependency 'svt-av1', '>= 0.8.7'
+    ss.dependency 'libheif/libheif'
+    ss.source_files = 'libheif/plugins/heif_encoder_svt.{h,c,cc}'
+    ss.private_header_files = 'libheif/plugins/heif_encoder_svt.h'
+    ss.preserve_path = 'libheif'
+    ss.xcconfig = {
+      'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_SvtEnc=1',
+      'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libheif/ ${PODS_TARGET_SRCROOT}/ ${PODS_ROOT}/svt-av1/include/'
     }
   end
 

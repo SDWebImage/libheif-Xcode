@@ -25,7 +25,7 @@ let package = Package(
             name: "libheif",
             dependencies: ["libde265"],
             path: ".",
-            exclude: ["libheif/libheif/box_fuzzer.cc", "libheif/libheif/color_conversion_fuzzer.cc", "libheif/libheif/encoder_fuzzer.cc", "libheif/libheif/file_fuzzer.cc",
+            exclude: ["libheif/libheif/box_fuzzer.cc", "libheif/libheif/color_conversion_fuzzer.cc", "libheif/libheif/encoder_fuzzer.cc", "libheif/libheif/file_fuzzer.cc", "libheif/libheif/plugins_unix.h", "libheif/libheif/plugins_unix.cc", "libheif/libheif/plugins_windows.h", "libheif/libheif/plugins_windows.cc",
                       "libheif/libheif/plugins/heif_encoder_aom.h",
                       "libheif/libheif/plugins/heif_encoder_aom.cc",
                       "libheif/libheif/plugins/heif_decoder_aom.h",

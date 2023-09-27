@@ -55,6 +55,14 @@
 		3264807125048248004FA0FC /* nclx.h in Headers */ = {isa = PBXBuildFile; fileRef = 3264806B25048248004FA0FC /* nclx.h */; };
 		3264807225048248004FA0FC /* nclx.h in Headers */ = {isa = PBXBuildFile; fileRef = 3264806B25048248004FA0FC /* nclx.h */; };
 		3264807325048248004FA0FC /* nclx.h in Headers */ = {isa = PBXBuildFile; fileRef = 3264806B25048248004FA0FC /* nclx.h */; };
+		32AD2E252AC461A000C9E834 /* common_utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2E232AC461A000C9E834 /* common_utils.cc */; };
+		32AD2E262AC461A000C9E834 /* common_utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2E232AC461A000C9E834 /* common_utils.cc */; };
+		32AD2E272AC461A000C9E834 /* common_utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2E232AC461A000C9E834 /* common_utils.cc */; };
+		32AD2E282AC461A000C9E834 /* common_utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2E232AC461A000C9E834 /* common_utils.cc */; };
+		32AD2E292AC461A000C9E834 /* common_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AD2E242AC461A000C9E834 /* common_utils.h */; };
+		32AD2E2A2AC461A000C9E834 /* common_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AD2E242AC461A000C9E834 /* common_utils.h */; };
+		32AD2E2B2AC461A000C9E834 /* common_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AD2E242AC461A000C9E834 /* common_utils.h */; };
+		32AD2E2C2AC461A000C9E834 /* common_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AD2E242AC461A000C9E834 /* common_utils.h */; };
 		32AE9EC7230971350001ABFF /* heif_colorconversion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AE9EC5230971350001ABFF /* heif_colorconversion.cc */; };
 		32AE9EC8230971350001ABFF /* heif_colorconversion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AE9EC5230971350001ABFF /* heif_colorconversion.cc */; };
 		32AE9EC9230971350001ABFF /* heif_colorconversion.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AE9EC5230971350001ABFF /* heif_colorconversion.cc */; };
@@ -216,6 +224,8 @@
 		323F44522AC2C34300BA8134 /* heif_decoder_libde265.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_decoder_libde265.h; sourceTree = "<group>"; };
 		3264806A25048248004FA0FC /* nclx.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nclx.cc; sourceTree = "<group>"; };
 		3264806B25048248004FA0FC /* nclx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nclx.h; sourceTree = "<group>"; };
+		32AD2E232AC461A000C9E834 /* common_utils.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common_utils.cc; sourceTree = "<group>"; };
+		32AD2E242AC461A000C9E834 /* common_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common_utils.h; sourceTree = "<group>"; };
 		32AE9EC5230971350001ABFF /* heif_colorconversion.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_colorconversion.cc; sourceTree = "<group>"; };
 		32AE9EC6230971350001ABFF /* heif_colorconversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_colorconversion.h; sourceTree = "<group>"; };
 		32B35E7623B600E8008A3B8E /* heif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif.h; sourceTree = "<group>"; };
@@ -388,6 +398,8 @@
 				32BF9AB921CCEA1A00056EB2 /* bitstream.h */,
 				32BF9ABF21CCEA1A00056EB2 /* box.cc */,
 				32BF9AA421CCEA1A00056EB2 /* box.h */,
+				32AD2E232AC461A000C9E834 /* common_utils.cc */,
+				32AD2E242AC461A000C9E834 /* common_utils.h */,
 				323F44262AC2C30D00BA8134 /* exif.cc */,
 				323F44272AC2C30D00BA8134 /* exif.h */,
 				32BF9AC521CCEA1A00056EB2 /* error.cc */,
@@ -453,6 +465,7 @@
 				32AE9ECB230971350001ABFF /* heif_colorconversion.h in Headers */,
 				32B35E7823B600E8008A3B8E /* heif.h in Headers */,
 				323F44322AC2C31B00BA8134 /* metadata_compression.h in Headers */,
+				32AD2E292AC461A000C9E834 /* common_utils.h in Headers */,
 				32BF9B2521CCEA1A00056EB2 /* heif_api_structs.h in Headers */,
 				32BF9B0621CCEA1A00056EB2 /* error.h in Headers */,
 				32BF9B2721CCEA1A00056EB2 /* heif_context.h in Headers */,
@@ -485,6 +498,7 @@
 				32AE9ECC230971350001ABFF /* heif_colorconversion.h in Headers */,
 				32B35E7923B600E8008A3B8E /* heif.h in Headers */,
 				323F44332AC2C31B00BA8134 /* metadata_compression.h in Headers */,
+				32AD2E2A2AC461A000C9E834 /* common_utils.h in Headers */,
 				32BF9B9621CCF38800056EB2 /* heif_api_structs.h in Headers */,
 				32BF9B9521CCF38800056EB2 /* error.h in Headers */,
 				32BF9BAA21CCF38800056EB2 /* logging.h in Headers */,
@@ -517,6 +531,7 @@
 				32AE9ECD230971350001ABFF /* heif_colorconversion.h in Headers */,
 				32B35E7A23B600E8008A3B8E /* heif.h in Headers */,
 				323F44342AC2C31B00BA8134 /* metadata_compression.h in Headers */,
+				32AD2E2B2AC461A000C9E834 /* common_utils.h in Headers */,
 				32BF9BB121CCF38800056EB2 /* heif_api_structs.h in Headers */,
 				32BF9BB021CCF38800056EB2 /* error.h in Headers */,
 				32BF9BC521CCF38800056EB2 /* logging.h in Headers */,
@@ -549,6 +564,7 @@
 				32AE9ECE230971350001ABFF /* heif_colorconversion.h in Headers */,
 				32B35E7B23B600E8008A3B8E /* heif.h in Headers */,
 				323F44352AC2C31B00BA8134 /* metadata_compression.h in Headers */,
+				32AD2E2C2AC461A000C9E834 /* common_utils.h in Headers */,
 				32BF9BCC21CCF38A00056EB2 /* heif_api_structs.h in Headers */,
 				32BF9BCB21CCF38A00056EB2 /* error.h in Headers */,
 				32BF9BE021CCF38A00056EB2 /* logging.h in Headers */,
@@ -760,6 +776,7 @@
 				32BF9B1E21CCEA1A00056EB2 /* heif_context.cc in Sources */,
 				32AE9EC7230971350001ABFF /* heif_colorconversion.cc in Sources */,
 				323F443C2AC2C32800BA8134 /* nclx.cc in Sources */,
+				32AD2E252AC461A000C9E834 /* common_utils.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,6 +810,7 @@
 				32BF9BA121CCF38800056EB2 /* heif_image.cc in Sources */,
 				32AE9EC8230971350001ABFF /* heif_colorconversion.cc in Sources */,
 				323F443D2AC2C32800BA8134 /* nclx.cc in Sources */,
+				32AD2E262AC461A000C9E834 /* common_utils.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -818,6 +836,7 @@
 				32BF9BBC21CCF38800056EB2 /* heif_image.cc in Sources */,
 				32AE9EC9230971350001ABFF /* heif_colorconversion.cc in Sources */,
 				323F443E2AC2C32800BA8134 /* nclx.cc in Sources */,
+				32AD2E272AC461A000C9E834 /* common_utils.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -843,6 +862,7 @@
 				32BF9BD721CCF38A00056EB2 /* heif_image.cc in Sources */,
 				32AE9ECA230971350001ABFF /* heif_colorconversion.cc in Sources */,
 				323F443F2AC2C32800BA8134 /* nclx.cc in Sources */,
+				32AD2E282AC461A000C9E834 /* common_utils.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

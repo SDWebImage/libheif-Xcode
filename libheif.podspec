@@ -34,7 +34,7 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
   s.subspec 'libheif' do |ss|
     ss.source_files = 'libheif/**/*.{h,c,cc}'
     ss.exclude_files = 'libheif/plugins/decoder_libde265.{h,c,cc}', 'libheif/plugins/encoder_x265.{h,c,cc}', 'libheif/plugins/encoder_aom.{h,c,cc}', 'libheif/plugins/decoder_aom.{h,c,cc}', 'libheif/plugins/decoder_dav1d.{h,c,cc}', 'libheif/plugins/encoder_rav1e.{h,c,cc}', 'libheif/plugins/encoder_svt.{h,c,cc}', 'libheif/plugins_windows.{h,c,cc}', 'libheif/plugins_unix.{h,c,cc}'
-    ss.public_header_files = 'libheif/heif.h', 'libheif/plugins/heif_version.h'
+    ss.public_header_files = 'libheif/heif.h', 'libheif/heif_version.h'
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_UNISTD_H=1',

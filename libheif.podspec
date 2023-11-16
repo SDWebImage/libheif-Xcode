@@ -64,6 +64,7 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) HAVE_X265=1',
+      'WARNING_CFLAGS' => '$(inherited) -Wno-module-import-in-extern-c', # import of C++ module 'libx265' appears within extern "C" language linkage specification
       'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libheif/ ${PODS_TARGET_SRCROOT}/ ${PODS_ROOT}/libx265/source/' # Fix #include <x265.h>
     }
   end

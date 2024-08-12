@@ -7,6 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320714132C69E7E0006D2A33 /* heif_regions.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207140F2C69E7E0006D2A33 /* heif_regions.cc */; };
+		320714142C69E7E0006D2A33 /* heif_regions.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207140F2C69E7E0006D2A33 /* heif_regions.cc */; };
+		320714152C69E7E0006D2A33 /* heif_regions.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207140F2C69E7E0006D2A33 /* heif_regions.cc */; };
+		320714162C69E7E0006D2A33 /* heif_regions.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207140F2C69E7E0006D2A33 /* heif_regions.cc */; };
+		320714172C69E7E0006D2A33 /* heif_properties.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714102C69E7E0006D2A33 /* heif_properties.cc */; };
+		320714182C69E7E0006D2A33 /* heif_properties.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714102C69E7E0006D2A33 /* heif_properties.cc */; };
+		320714192C69E7E0006D2A33 /* heif_properties.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714102C69E7E0006D2A33 /* heif_properties.cc */; };
+		3207141A2C69E7E0006D2A33 /* heif_properties.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714102C69E7E0006D2A33 /* heif_properties.cc */; };
+		3207141B2C69E7E0006D2A33 /* heif_properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714112C69E7E0006D2A33 /* heif_properties.h */; };
+		3207141C2C69E7E0006D2A33 /* heif_properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714112C69E7E0006D2A33 /* heif_properties.h */; };
+		3207141D2C69E7E0006D2A33 /* heif_properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714112C69E7E0006D2A33 /* heif_properties.h */; };
+		3207141E2C69E7E0006D2A33 /* heif_properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714112C69E7E0006D2A33 /* heif_properties.h */; };
+		3207141F2C69E7E0006D2A33 /* heif_regions.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714122C69E7E0006D2A33 /* heif_regions.h */; };
+		320714202C69E7E0006D2A33 /* heif_regions.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714122C69E7E0006D2A33 /* heif_regions.h */; };
+		320714212C69E7E0006D2A33 /* heif_regions.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714122C69E7E0006D2A33 /* heif_regions.h */; };
+		320714222C69E7E0006D2A33 /* heif_regions.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714122C69E7E0006D2A33 /* heif_regions.h */; };
+		320714272C69E837006D2A33 /* jpeg2000.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714232C69E837006D2A33 /* jpeg2000.h */; };
+		320714282C69E837006D2A33 /* jpeg2000.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714232C69E837006D2A33 /* jpeg2000.h */; };
+		320714292C69E837006D2A33 /* jpeg2000.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714232C69E837006D2A33 /* jpeg2000.h */; };
+		3207142A2C69E837006D2A33 /* jpeg2000.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714232C69E837006D2A33 /* jpeg2000.h */; };
+		3207142B2C69E837006D2A33 /* jpeg.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714242C69E837006D2A33 /* jpeg.cc */; };
+		3207142C2C69E837006D2A33 /* jpeg.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714242C69E837006D2A33 /* jpeg.cc */; };
+		3207142D2C69E837006D2A33 /* jpeg.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714242C69E837006D2A33 /* jpeg.cc */; };
+		3207142E2C69E837006D2A33 /* jpeg.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714242C69E837006D2A33 /* jpeg.cc */; };
+		3207142F2C69E837006D2A33 /* jpeg2000.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714252C69E837006D2A33 /* jpeg2000.cc */; };
+		320714302C69E837006D2A33 /* jpeg2000.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714252C69E837006D2A33 /* jpeg2000.cc */; };
+		320714312C69E837006D2A33 /* jpeg2000.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714252C69E837006D2A33 /* jpeg2000.cc */; };
+		320714322C69E837006D2A33 /* jpeg2000.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714252C69E837006D2A33 /* jpeg2000.cc */; };
+		320714332C69E837006D2A33 /* jpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714262C69E837006D2A33 /* jpeg.h */; };
+		320714342C69E837006D2A33 /* jpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714262C69E837006D2A33 /* jpeg.h */; };
+		320714352C69E837006D2A33 /* jpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714262C69E837006D2A33 /* jpeg.h */; };
+		320714362C69E837006D2A33 /* jpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714262C69E837006D2A33 /* jpeg.h */; };
+		320714392C69E843006D2A33 /* mask_image.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714372C69E843006D2A33 /* mask_image.cc */; };
+		3207143A2C69E843006D2A33 /* mask_image.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714372C69E843006D2A33 /* mask_image.cc */; };
+		3207143B2C69E843006D2A33 /* mask_image.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714372C69E843006D2A33 /* mask_image.cc */; };
+		3207143C2C69E843006D2A33 /* mask_image.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714372C69E843006D2A33 /* mask_image.cc */; };
+		3207143D2C69E843006D2A33 /* mask_image.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714382C69E843006D2A33 /* mask_image.h */; };
+		3207143E2C69E843006D2A33 /* mask_image.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714382C69E843006D2A33 /* mask_image.h */; };
+		3207143F2C69E843006D2A33 /* mask_image.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714382C69E843006D2A33 /* mask_image.h */; };
+		320714402C69E843006D2A33 /* mask_image.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714382C69E843006D2A33 /* mask_image.h */; };
+		320714432C69E850006D2A33 /* vvc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714412C69E850006D2A33 /* vvc.cc */; };
+		320714442C69E850006D2A33 /* vvc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714412C69E850006D2A33 /* vvc.cc */; };
+		320714452C69E850006D2A33 /* vvc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714412C69E850006D2A33 /* vvc.cc */; };
+		320714462C69E850006D2A33 /* vvc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320714412C69E850006D2A33 /* vvc.cc */; };
+		320714472C69E850006D2A33 /* vvc.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714422C69E850006D2A33 /* vvc.h */; };
+		320714482C69E850006D2A33 /* vvc.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714422C69E850006D2A33 /* vvc.h */; };
+		320714492C69E850006D2A33 /* vvc.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714422C69E850006D2A33 /* vvc.h */; };
+		3207144A2C69E850006D2A33 /* vvc.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714422C69E850006D2A33 /* vvc.h */; };
+		320714532C69E9E1006D2A33 /* encoder_mask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3207144C2C69E9E1006D2A33 /* encoder_mask.h */; };
+		320714542C69E9E1006D2A33 /* encoder_mask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3207144C2C69E9E1006D2A33 /* encoder_mask.h */; };
+		320714552C69E9E1006D2A33 /* encoder_mask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3207144C2C69E9E1006D2A33 /* encoder_mask.h */; };
+		320714562C69E9E1006D2A33 /* encoder_mask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3207144C2C69E9E1006D2A33 /* encoder_mask.h */; };
+		3207145B2C69E9E1006D2A33 /* encoder_mask.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207144E2C69E9E1006D2A33 /* encoder_mask.cc */; };
+		3207145C2C69E9E1006D2A33 /* encoder_mask.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207144E2C69E9E1006D2A33 /* encoder_mask.cc */; };
+		3207145D2C69E9E1006D2A33 /* encoder_mask.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207144E2C69E9E1006D2A33 /* encoder_mask.cc */; };
+		3207145E2C69E9E1006D2A33 /* encoder_mask.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207144E2C69E9E1006D2A33 /* encoder_mask.cc */; };
 		32AD2E832AC4643A00C9E834 /* common_utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2E2E2AC4643A00C9E834 /* common_utils.cc */; };
 		32AD2E842AC4643A00C9E834 /* common_utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2E2E2AC4643A00C9E834 /* common_utils.cc */; };
 		32AD2E852AC4643A00C9E834 /* common_utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2E2E2AC4643A00C9E834 /* common_utils.cc */; };
@@ -288,6 +344,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3207140F2C69E7E0006D2A33 /* heif_regions.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_regions.cc; sourceTree = "<group>"; };
+		320714102C69E7E0006D2A33 /* heif_properties.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_properties.cc; sourceTree = "<group>"; };
+		320714112C69E7E0006D2A33 /* heif_properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_properties.h; sourceTree = "<group>"; };
+		320714122C69E7E0006D2A33 /* heif_regions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_regions.h; sourceTree = "<group>"; };
+		320714232C69E837006D2A33 /* jpeg2000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeg2000.h; sourceTree = "<group>"; };
+		320714242C69E837006D2A33 /* jpeg.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jpeg.cc; sourceTree = "<group>"; };
+		320714252C69E837006D2A33 /* jpeg2000.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jpeg2000.cc; sourceTree = "<group>"; };
+		320714262C69E837006D2A33 /* jpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeg.h; sourceTree = "<group>"; };
+		320714372C69E843006D2A33 /* mask_image.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mask_image.cc; sourceTree = "<group>"; };
+		320714382C69E843006D2A33 /* mask_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask_image.h; sourceTree = "<group>"; };
+		320714412C69E850006D2A33 /* vvc.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vvc.cc; sourceTree = "<group>"; };
+		320714422C69E850006D2A33 /* vvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vvc.h; sourceTree = "<group>"; };
+		3207144C2C69E9E1006D2A33 /* encoder_mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoder_mask.h; sourceTree = "<group>"; };
+		3207144E2C69E9E1006D2A33 /* encoder_mask.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encoder_mask.cc; sourceTree = "<group>"; };
 		32AD2E2E2AC4643A00C9E834 /* common_utils.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common_utils.cc; sourceTree = "<group>"; };
 		32AD2E2F2AC4643A00C9E834 /* init.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = init.cc; sourceTree = "<group>"; };
 		32AD2E302AC4643A00C9E834 /* heif_plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_plugin.h; sourceTree = "<group>"; };
@@ -435,13 +505,23 @@
 				32AD2E552AC4643A00C9E834 /* heif_emscripten.h */,
 				32AD2E652AC4643A00C9E834 /* heif_plugin.cc */,
 				32AD2E302AC4643A00C9E834 /* heif_plugin.h */,
+				320714102C69E7E0006D2A33 /* heif_properties.cc */,
+				320714112C69E7E0006D2A33 /* heif_properties.h */,
+				3207140F2C69E7E0006D2A33 /* heif_regions.cc */,
+				320714122C69E7E0006D2A33 /* heif_regions.h */,
 				32AD2E572AC4643A00C9E834 /* heif.cc */,
 				32AD2E342AC4643A00C9E834 /* heif.h */,
 				32AD2E5E2AC4643A00C9E834 /* hevc.cc */,
 				32AD2E392AC4643A00C9E834 /* hevc.h */,
 				32AD2E2F2AC4643A00C9E834 /* init.cc */,
 				32AD2E682AC4643A00C9E834 /* init.h */,
+				320714242C69E837006D2A33 /* jpeg.cc */,
+				320714262C69E837006D2A33 /* jpeg.h */,
+				320714252C69E837006D2A33 /* jpeg2000.cc */,
+				320714232C69E837006D2A33 /* jpeg2000.h */,
 				32AD2E592AC4643A00C9E834 /* logging.h */,
+				320714372C69E843006D2A33 /* mask_image.cc */,
+				320714382C69E843006D2A33 /* mask_image.h */,
 				32AD2E822AC4643A00C9E834 /* metadata_compression.cc */,
 				32AD2E522AC4643A00C9E834 /* metadata_compression.h */,
 				32AD2E7D2AC4643A00C9E834 /* nclx.cc */,
@@ -456,6 +536,8 @@
 				32AD2E532AC4643A00C9E834 /* security_limits.h */,
 				32AD2E5C2AC4643A00C9E834 /* uncompressed_image.cc */,
 				32AD2E4E2AC4643A00C9E834 /* uncompressed_image.h */,
+				320714412C69E850006D2A33 /* vvc.cc */,
+				320714422C69E850006D2A33 /* vvc.h */,
 			);
 			path = libheif;
 			sourceTree = "<group>";
@@ -463,6 +545,8 @@
 		32AD2E3B2AC4643A00C9E834 /* plugins */ = {
 			isa = PBXGroup;
 			children = (
+				3207144E2C69E9E1006D2A33 /* encoder_mask.cc */,
+				3207144C2C69E9E1006D2A33 /* encoder_mask.h */,
 				32AD2E402AC4643A00C9E834 /* decoder_libde265.cc */,
 				32AD2E432AC4643A00C9E834 /* decoder_libde265.h */,
 			);
@@ -578,13 +662,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320714472C69E850006D2A33 /* vvc.h in Headers */,
 				32AD2F1F2AC4643A00C9E834 /* heif_cxx.h in Headers */,
 				32AD2EAF2AC4643A00C9E834 /* hevc.h in Headers */,
+				3207141F2C69E7E0006D2A33 /* heif_regions.h in Headers */,
 				32AD2F632AC4643A00C9E834 /* region.h in Headers */,
 				32AD2ED32AC4643A00C9E834 /* decoder_libde265.h in Headers */,
+				320714272C69E837006D2A33 /* jpeg2000.h in Headers */,
 				32AD2E9B2AC4643A00C9E834 /* heif.h in Headers */,
+				3207141B2C69E7E0006D2A33 /* heif_properties.h in Headers */,
 				32AD2E932AC4643A00C9E834 /* box.h in Headers */,
 				32AD2F9F2AC4643A00C9E834 /* rgb2yuv_sharp.h in Headers */,
+				320714332C69E837006D2A33 /* jpeg.h in Headers */,
 				32AD2FB32AC4643B00C9E834 /* exif.h in Headers */,
 				32B35E7823B600E8008A3B8E /* heif.h in Headers */,
 				32AD2F972AC4643A00C9E834 /* hdr_sdr.h in Headers */,
@@ -601,6 +690,8 @@
 				32AD2F0B2AC4643A00C9E834 /* file.h in Headers */,
 				32AD2EAB2AC4643A00C9E834 /* common_utils.h in Headers */,
 				32AD2F272AC4643A00C9E834 /* plugin_registry.h in Headers */,
+				3207143D2C69E843006D2A33 /* mask_image.h in Headers */,
+				320714532C69E9E1006D2A33 /* encoder_mask.h in Headers */,
 				32AD2F872AC4643A00C9E834 /* rgb2yuv.h in Headers */,
 				32AD2F2F2AC4643A00C9E834 /* pixelimage.h in Headers */,
 				32AD2F132AC4643A00C9E834 /* security_limits.h in Headers */,
@@ -621,13 +712,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320714482C69E850006D2A33 /* vvc.h in Headers */,
 				32AD2F202AC4643A00C9E834 /* heif_cxx.h in Headers */,
 				32AD2EB02AC4643A00C9E834 /* hevc.h in Headers */,
+				320714202C69E7E0006D2A33 /* heif_regions.h in Headers */,
 				32AD2F642AC4643A00C9E834 /* region.h in Headers */,
 				32AD2ED42AC4643A00C9E834 /* decoder_libde265.h in Headers */,
+				320714282C69E837006D2A33 /* jpeg2000.h in Headers */,
 				32AD2E9C2AC4643A00C9E834 /* heif.h in Headers */,
+				3207141C2C69E7E0006D2A33 /* heif_properties.h in Headers */,
 				32AD2E942AC4643A00C9E834 /* box.h in Headers */,
 				32AD2FA02AC4643A00C9E834 /* rgb2yuv_sharp.h in Headers */,
+				320714342C69E837006D2A33 /* jpeg.h in Headers */,
 				32AD2FB42AC4643B00C9E834 /* exif.h in Headers */,
 				32BF9BE521CCF39D00056EB2 /* libheif.h in Headers */,
 				32AD2F982AC4643A00C9E834 /* hdr_sdr.h in Headers */,
@@ -644,6 +740,8 @@
 				32AD2F0C2AC4643A00C9E834 /* file.h in Headers */,
 				32AD2EAC2AC4643A00C9E834 /* common_utils.h in Headers */,
 				32AD2F282AC4643A00C9E834 /* plugin_registry.h in Headers */,
+				3207143E2C69E843006D2A33 /* mask_image.h in Headers */,
+				320714542C69E9E1006D2A33 /* encoder_mask.h in Headers */,
 				32AD2F882AC4643A00C9E834 /* rgb2yuv.h in Headers */,
 				32AD2F302AC4643A00C9E834 /* pixelimage.h in Headers */,
 				32AD2F142AC4643A00C9E834 /* security_limits.h in Headers */,
@@ -664,13 +762,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320714492C69E850006D2A33 /* vvc.h in Headers */,
 				32AD2F212AC4643A00C9E834 /* heif_cxx.h in Headers */,
 				32AD2EB12AC4643A00C9E834 /* hevc.h in Headers */,
+				320714212C69E7E0006D2A33 /* heif_regions.h in Headers */,
 				32AD2F652AC4643A00C9E834 /* region.h in Headers */,
 				32AD2ED52AC4643A00C9E834 /* decoder_libde265.h in Headers */,
+				320714292C69E837006D2A33 /* jpeg2000.h in Headers */,
 				32AD2E9D2AC4643A00C9E834 /* heif.h in Headers */,
+				3207141D2C69E7E0006D2A33 /* heif_properties.h in Headers */,
 				32AD2E952AC4643A00C9E834 /* box.h in Headers */,
 				32AD2FA12AC4643A00C9E834 /* rgb2yuv_sharp.h in Headers */,
+				320714352C69E837006D2A33 /* jpeg.h in Headers */,
 				32AD2FB52AC4643B00C9E834 /* exif.h in Headers */,
 				32BF9BE421CCF39D00056EB2 /* libheif.h in Headers */,
 				32AD2F992AC4643A00C9E834 /* hdr_sdr.h in Headers */,
@@ -687,6 +790,8 @@
 				32AD2F0D2AC4643A00C9E834 /* file.h in Headers */,
 				32AD2EAD2AC4643A00C9E834 /* common_utils.h in Headers */,
 				32AD2F292AC4643A00C9E834 /* plugin_registry.h in Headers */,
+				3207143F2C69E843006D2A33 /* mask_image.h in Headers */,
+				320714552C69E9E1006D2A33 /* encoder_mask.h in Headers */,
 				32AD2F892AC4643A00C9E834 /* rgb2yuv.h in Headers */,
 				32AD2F312AC4643A00C9E834 /* pixelimage.h in Headers */,
 				32AD2F152AC4643A00C9E834 /* security_limits.h in Headers */,
@@ -707,13 +812,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3207144A2C69E850006D2A33 /* vvc.h in Headers */,
 				32AD2F222AC4643A00C9E834 /* heif_cxx.h in Headers */,
 				32AD2EB22AC4643A00C9E834 /* hevc.h in Headers */,
+				320714222C69E7E0006D2A33 /* heif_regions.h in Headers */,
 				32AD2F662AC4643A00C9E834 /* region.h in Headers */,
 				32AD2ED62AC4643A00C9E834 /* decoder_libde265.h in Headers */,
+				3207142A2C69E837006D2A33 /* jpeg2000.h in Headers */,
 				32AD2E9E2AC4643A00C9E834 /* heif.h in Headers */,
+				3207141E2C69E7E0006D2A33 /* heif_properties.h in Headers */,
 				32AD2E962AC4643A00C9E834 /* box.h in Headers */,
 				32AD2FA22AC4643A00C9E834 /* rgb2yuv_sharp.h in Headers */,
+				320714362C69E837006D2A33 /* jpeg.h in Headers */,
 				32AD2FB62AC4643B00C9E834 /* exif.h in Headers */,
 				32BF9BE621CCF39E00056EB2 /* libheif.h in Headers */,
 				32AD2F9A2AC4643A00C9E834 /* hdr_sdr.h in Headers */,
@@ -730,6 +840,8 @@
 				32AD2F0E2AC4643A00C9E834 /* file.h in Headers */,
 				32AD2EAE2AC4643A00C9E834 /* common_utils.h in Headers */,
 				32AD2F2A2AC4643A00C9E834 /* plugin_registry.h in Headers */,
+				320714402C69E843006D2A33 /* mask_image.h in Headers */,
+				320714562C69E9E1006D2A33 /* encoder_mask.h in Headers */,
 				32AD2F8A2AC4643A00C9E834 /* rgb2yuv.h in Headers */,
 				32AD2F322AC4643A00C9E834 /* pixelimage.h in Headers */,
 				32AD2F162AC4643A00C9E834 /* security_limits.h in Headers */,
@@ -924,8 +1036,12 @@
 				32AD2FBF2AC4643B00C9E834 /* plugin_registry.cc in Sources */,
 				32AD2F232AC4643A00C9E834 /* heif.cc in Sources */,
 				32AD2F5F2AC4643A00C9E834 /* box.cc in Sources */,
+				320714132C69E7E0006D2A33 /* heif_regions.cc in Sources */,
+				320714432C69E850006D2A33 /* vvc.cc in Sources */,
+				3207145B2C69E9E1006D2A33 /* encoder_mask.cc in Sources */,
 				32AD2F832AC4643A00C9E834 /* yuv2rgb.cc in Sources */,
 				32AD2F6F2AC4643A00C9E834 /* rgb2yuv_sharp.cc in Sources */,
+				3207142F2C69E837006D2A33 /* jpeg2000.cc in Sources */,
 				32AD2FB72AC4643B00C9E834 /* nclx.cc in Sources */,
 				32AD2FAB2AC4643B00C9E834 /* rgb2rgb.cc in Sources */,
 				32AD2F032AC4643A00C9E834 /* exif.cc in Sources */,
@@ -934,15 +1050,18 @@
 				32AD2F772AC4643A00C9E834 /* chroma_sampling.cc in Sources */,
 				32AD2F8F2AC4643A00C9E834 /* colorconversion.cc in Sources */,
 				32AD2E832AC4643A00C9E834 /* common_utils.cc in Sources */,
+				320714392C69E843006D2A33 /* mask_image.cc in Sources */,
 				32AD2F072AC4643A00C9E834 /* context.cc in Sources */,
 				32AD2EFB2AC4643A00C9E834 /* file.cc in Sources */,
 				32AD2FC72AC4643B00C9E834 /* error.cc in Sources */,
 				32AD2F8B2AC4643A00C9E834 /* alpha.cc in Sources */,
 				32AD2EC72AC4643A00C9E834 /* decoder_libde265.cc in Sources */,
 				32AD2F5B2AC4643A00C9E834 /* heif_plugin.cc in Sources */,
+				3207142B2C69E837006D2A33 /* jpeg.cc in Sources */,
 				32AD2F372AC4643A00C9E834 /* uncompressed_image.cc in Sources */,
 				32AD2E9F2AC4643A00C9E834 /* pixelimage.cc in Sources */,
 				32AD2F332AC4643A00C9E834 /* bitstream.cc in Sources */,
+				320714172C69E7E0006D2A33 /* heif_properties.cc in Sources */,
 				32AD2FCB2AC4643B00C9E834 /* metadata_compression.cc in Sources */,
 				32AD2F3F2AC4643A00C9E834 /* hevc.cc in Sources */,
 				32AD2F532AC4643A00C9E834 /* region.cc in Sources */,
@@ -967,8 +1086,12 @@
 				32AD2FC02AC4643B00C9E834 /* plugin_registry.cc in Sources */,
 				32AD2F242AC4643A00C9E834 /* heif.cc in Sources */,
 				32AD2F602AC4643A00C9E834 /* box.cc in Sources */,
+				320714142C69E7E0006D2A33 /* heif_regions.cc in Sources */,
+				320714442C69E850006D2A33 /* vvc.cc in Sources */,
+				3207145C2C69E9E1006D2A33 /* encoder_mask.cc in Sources */,
 				32AD2F842AC4643A00C9E834 /* yuv2rgb.cc in Sources */,
 				32AD2F702AC4643A00C9E834 /* rgb2yuv_sharp.cc in Sources */,
+				320714302C69E837006D2A33 /* jpeg2000.cc in Sources */,
 				32AD2FB82AC4643B00C9E834 /* nclx.cc in Sources */,
 				32AD2FAC2AC4643B00C9E834 /* rgb2rgb.cc in Sources */,
 				32AD2F042AC4643A00C9E834 /* exif.cc in Sources */,
@@ -977,15 +1100,18 @@
 				32AD2F782AC4643A00C9E834 /* chroma_sampling.cc in Sources */,
 				32AD2F902AC4643A00C9E834 /* colorconversion.cc in Sources */,
 				32AD2E842AC4643A00C9E834 /* common_utils.cc in Sources */,
+				3207143A2C69E843006D2A33 /* mask_image.cc in Sources */,
 				32AD2F082AC4643A00C9E834 /* context.cc in Sources */,
 				32AD2EFC2AC4643A00C9E834 /* file.cc in Sources */,
 				32AD2FC82AC4643B00C9E834 /* error.cc in Sources */,
 				32AD2F8C2AC4643A00C9E834 /* alpha.cc in Sources */,
 				32AD2EC82AC4643A00C9E834 /* decoder_libde265.cc in Sources */,
 				32AD2F5C2AC4643A00C9E834 /* heif_plugin.cc in Sources */,
+				3207142C2C69E837006D2A33 /* jpeg.cc in Sources */,
 				32AD2F382AC4643A00C9E834 /* uncompressed_image.cc in Sources */,
 				32AD2EA02AC4643A00C9E834 /* pixelimage.cc in Sources */,
 				32AD2F342AC4643A00C9E834 /* bitstream.cc in Sources */,
+				320714182C69E7E0006D2A33 /* heif_properties.cc in Sources */,
 				32AD2FCC2AC4643B00C9E834 /* metadata_compression.cc in Sources */,
 				32AD2F402AC4643A00C9E834 /* hevc.cc in Sources */,
 				32AD2F542AC4643A00C9E834 /* region.cc in Sources */,
@@ -1002,8 +1128,12 @@
 				32AD2FC12AC4643B00C9E834 /* plugin_registry.cc in Sources */,
 				32AD2F252AC4643A00C9E834 /* heif.cc in Sources */,
 				32AD2F612AC4643A00C9E834 /* box.cc in Sources */,
+				320714152C69E7E0006D2A33 /* heif_regions.cc in Sources */,
+				320714452C69E850006D2A33 /* vvc.cc in Sources */,
+				3207145D2C69E9E1006D2A33 /* encoder_mask.cc in Sources */,
 				32AD2F852AC4643A00C9E834 /* yuv2rgb.cc in Sources */,
 				32AD2F712AC4643A00C9E834 /* rgb2yuv_sharp.cc in Sources */,
+				320714312C69E837006D2A33 /* jpeg2000.cc in Sources */,
 				32AD2FB92AC4643B00C9E834 /* nclx.cc in Sources */,
 				32AD2FAD2AC4643B00C9E834 /* rgb2rgb.cc in Sources */,
 				32AD2F052AC4643A00C9E834 /* exif.cc in Sources */,
@@ -1012,15 +1142,18 @@
 				32AD2F792AC4643A00C9E834 /* chroma_sampling.cc in Sources */,
 				32AD2F912AC4643A00C9E834 /* colorconversion.cc in Sources */,
 				32AD2E852AC4643A00C9E834 /* common_utils.cc in Sources */,
+				3207143B2C69E843006D2A33 /* mask_image.cc in Sources */,
 				32AD2F092AC4643A00C9E834 /* context.cc in Sources */,
 				32AD2EFD2AC4643A00C9E834 /* file.cc in Sources */,
 				32AD2FC92AC4643B00C9E834 /* error.cc in Sources */,
 				32AD2F8D2AC4643A00C9E834 /* alpha.cc in Sources */,
 				32AD2EC92AC4643A00C9E834 /* decoder_libde265.cc in Sources */,
 				32AD2F5D2AC4643A00C9E834 /* heif_plugin.cc in Sources */,
+				3207142D2C69E837006D2A33 /* jpeg.cc in Sources */,
 				32AD2F392AC4643A00C9E834 /* uncompressed_image.cc in Sources */,
 				32AD2EA12AC4643A00C9E834 /* pixelimage.cc in Sources */,
 				32AD2F352AC4643A00C9E834 /* bitstream.cc in Sources */,
+				320714192C69E7E0006D2A33 /* heif_properties.cc in Sources */,
 				32AD2FCD2AC4643B00C9E834 /* metadata_compression.cc in Sources */,
 				32AD2F412AC4643A00C9E834 /* hevc.cc in Sources */,
 				32AD2F552AC4643A00C9E834 /* region.cc in Sources */,
@@ -1037,8 +1170,12 @@
 				32AD2FC22AC4643B00C9E834 /* plugin_registry.cc in Sources */,
 				32AD2F262AC4643A00C9E834 /* heif.cc in Sources */,
 				32AD2F622AC4643A00C9E834 /* box.cc in Sources */,
+				320714162C69E7E0006D2A33 /* heif_regions.cc in Sources */,
+				320714462C69E850006D2A33 /* vvc.cc in Sources */,
+				3207145E2C69E9E1006D2A33 /* encoder_mask.cc in Sources */,
 				32AD2F862AC4643A00C9E834 /* yuv2rgb.cc in Sources */,
 				32AD2F722AC4643A00C9E834 /* rgb2yuv_sharp.cc in Sources */,
+				320714322C69E837006D2A33 /* jpeg2000.cc in Sources */,
 				32AD2FBA2AC4643B00C9E834 /* nclx.cc in Sources */,
 				32AD2FAE2AC4643B00C9E834 /* rgb2rgb.cc in Sources */,
 				32AD2F062AC4643A00C9E834 /* exif.cc in Sources */,
@@ -1047,15 +1184,18 @@
 				32AD2F7A2AC4643A00C9E834 /* chroma_sampling.cc in Sources */,
 				32AD2F922AC4643A00C9E834 /* colorconversion.cc in Sources */,
 				32AD2E862AC4643A00C9E834 /* common_utils.cc in Sources */,
+				3207143C2C69E843006D2A33 /* mask_image.cc in Sources */,
 				32AD2F0A2AC4643A00C9E834 /* context.cc in Sources */,
 				32AD2EFE2AC4643A00C9E834 /* file.cc in Sources */,
 				32AD2FCA2AC4643B00C9E834 /* error.cc in Sources */,
 				32AD2F8E2AC4643A00C9E834 /* alpha.cc in Sources */,
 				32AD2ECA2AC4643A00C9E834 /* decoder_libde265.cc in Sources */,
 				32AD2F5E2AC4643A00C9E834 /* heif_plugin.cc in Sources */,
+				3207142E2C69E837006D2A33 /* jpeg.cc in Sources */,
 				32AD2F3A2AC4643A00C9E834 /* uncompressed_image.cc in Sources */,
 				32AD2EA22AC4643A00C9E834 /* pixelimage.cc in Sources */,
 				32AD2F362AC4643A00C9E834 /* bitstream.cc in Sources */,
+				3207141A2C69E7E0006D2A33 /* heif_properties.cc in Sources */,
 				32AD2FCE2AC4643B00C9E834 /* metadata_compression.cc in Sources */,
 				32AD2F422AC4643A00C9E834 /* hevc.cc in Sources */,
 				32AD2F562AC4643A00C9E834 /* region.cc in Sources */,

@@ -24,7 +24,7 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
   s.homepage         = 'https://www.libheif.org/'
   s.license          = { :type => 'LGPL' }
   s.author           = { 'struktur AG' => 'opensource@struktur.de' }
-  s.source           = { :git => 'https://github.com/strukturag/libheif', :tag => 'v' + s.version.to_s }
+  s.source           = { :git => 'https://github.com/strukturag/libheif.git', :tag => 'v' + s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.11'
@@ -33,7 +33,21 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
 
   s.subspec 'libheif' do |ss|
     ss.source_files = 'libheif/**/*.{h,c,cc}'
-    ss.exclude_files = 'libheif/plugins/decoder_libde265.{h,c,cc}', 'libheif/plugins/encoder_x265.{h,c,cc}', 'libheif/plugins/encoder_aom.{h,c,cc}', 'libheif/plugins/decoder_aom.{h,c,cc}', 'libheif/plugins/decoder_dav1d.{h,c,cc}', 'libheif/plugins/encoder_rav1e.{h,c,cc}', 'libheif/plugins/encoder_svt.{h,c,cc}', 'libheif/plugins_windows.{h,c,cc}', 'libheif/plugins_unix.{h,c,cc}'
+    ss.exclude_files = 'libheif/plugins/decoder_libde265.{h,c,cc}',
+    'libheif/plugins/encoder_x265.{h,c,cc}',
+    'libheif/plugins/encoder_aom.{h,c,cc}',
+    'libheif/plugins/decoder_aom.{h,c,cc}',
+    'libheif/plugins/decoder_dav1d.{h,c,cc}',
+    'libheif/plugins/encoder_rav1e.{h,c,cc}',
+    'libheif/plugins/encoder_svt.{h,c,cc}',
+    'libheif/plugins/encoder_kvazaar.{h,c,cc}',
+    'libheif/plugins/decoder_ffmpeg.{h,c,cc}',
+    'libheif/plugins/encoder_jpeg.{h,c,cc}',
+    'libheif/plugins/decoder_jpeg.{h,c,cc}',
+    'libheif/plugins/encoder_openjpeg.{h,c,cc}',
+    'libheif/plugins/decoder_openjpeg.{h,c,cc}',
+    'libheif/plugins_windows.{h,c,cc}',
+    'libheif/plugins_unix.{h,c,cc}'
     ss.public_header_files = 'libheif/heif.h', 'libheif/heif_version.h'
     ss.preserve_path = 'libheif'
     ss.xcconfig = {
@@ -98,8 +112,8 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
   # rav1e encoder, for AVIF
   s.subspec 'librav1e' do |ss|
     # rav1e use Rust, which does not supports tvOS && watchOS because of bitcode
-    ss.ios.deployment_target = '8.0'
-    ss.osx.deployment_target = '10.10'
+    ss.ios.deployment_target = '9.0'
+    ss.osx.deployment_target = '10.11'
     ss.dependency 'librav1e'
   	ss.dependency 'libheif/libheif'
     ss.source_files = 'libheif/plugins/encoder_rav1e.{h,c,cc}'

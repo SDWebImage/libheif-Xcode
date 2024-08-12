@@ -16,14 +16,15 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/SDWebImage/libde265-Xcode.git", from: "1.0.9-beta")
+        .package(url: "https://github.com/SDWebImage/libde265-Xcode.git", from: "1.0.9"),
+        .package(url: "https://github.com/SDWebImage/libx265-Xcode.git", from: "3.4.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "libheif",
-            dependencies: ["libde265"],
+            dependencies: ["libde265", "libx265"],
             path: ".",
             exclude: ["libheif/libheif/plugins_unix.h",
                       "libheif/libheif/plugins_unix.cc",
@@ -33,17 +34,31 @@ let package = Package(
                       "libheif/libheif/plugins/encoder_aom.cc",
                       "libheif/libheif/plugins/decoder_aom.h",
                       "libheif/libheif/plugins/decoder_aom.cc",
-                      "libheif/libheif/plugins/encoder_x265.h",
-                      "libheif/libheif/plugins/encoder_x265.cc",
                       "libheif/libheif/plugins/decoder_dav1d.h",
                       "libheif/libheif/plugins/decoder_dav1d.cc",
                       "libheif/libheif/plugins/encoder_rav1e.h",
                       "libheif/libheif/plugins/encoder_rav1e.cc",
                       "libheif/libheif/plugins/encoder_svt.h",
+                      "libheif/libheif/plugins/encoder_svt.cc",
+                      "libheif/libheif/plugins/encoder_openjpeg.h",
+                      "libheif/libheif/plugins/encoder_openjpeg.cc",
+                      "libheif/libheif/plugins/decoder_openjpeg.h",
+                      "libheif/libheif/plugins/decoder_openjpeg.cc",
+                      "libheif/libheif/plugins/encoder_jpeg.h",
+                      "libheif/libheif/plugins/encoder_jpeg.cc",
+                      "libheif/libheif/plugins/decoder_jpeg.h",
+                      "libheif/libheif/plugins/decoder_jpeg.cc",
+                      "libheif/libheif/plugins/encoder_ffmpeg.h",
+                      "libheif/libheif/plugins/encoder_ffmpeg.cc",
+                      "libheif/libheif/plugins/decoder_ffmpeg.h",
+                      "libheif/libheif/plugins/decoder_ffmpeg.cc",
+                      "libheif/libheif/plugins/encoder_kvazaar.h",
+                      "libheif/libheif/plugins/encoder_kvazaar.cc",
+                      "libheif/libheif/plugins/encoder_svt.h",
                       "libheif/libheif/plugins/encoder_svt.cc"],
             sources: ["libheif/libheif"],
             publicHeadersPath: "include",
-            cSettings: [.headerSearchPath("libheif"), .define("HAVE_UNISTD_H"), .define("HAVE_LIBDE265")]
+            cSettings: [.headerSearchPath("libheif"), .define("HAVE_UNISTD_H"), .define("HAVE_LIBDE265"), .define("HAVE_X265")]
         )
     ],
     cLanguageStandard: .gnu11,

@@ -16,5 +16,5 @@ FOUNDATION_EXPORT const unsigned char libheifVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <libheif/PublicHeader.h>
 
 
-#import <libheif/heif.h>
-#import <libheif/heif_version.h>
+#import "heif.h"
+#import "heif_version.h"

@@ -6,8 +6,17 @@
         "repositoryURL": "https://github.com/SDWebImage/libde265-Xcode.git",
         "state": {
           "branch": null,
-          "revision": "32508f7b91f74fddbac411b0c750392ae08c8f35",
-          "version": "1.0.9-beta"
+          "revision": "3410ee6f5f496681c545229e716f305862b4b5ac",
+          "version": "1.0.15"
+        }
+      },
+      {
+        "package": "libx265",
+        "repositoryURL": "https://github.com/SDWebImage/libx265-Xcode.git",
+        "state": {
+          "branch": null,
+          "revision": "c8df330791e353c7ed5034bc4784eb0ee8c3d6ee",
+          "version": "3.4.0"
         }
       }
     ]

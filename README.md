@@ -14,8 +14,8 @@ This repo also including the CocoaPods's spec file to use libheif.
 
 ## Requirements
 
-+ iOS 8+
-+ macOS 10.10+
++ iOS 9+
++ macOS 10.11+
 + tvOS 9+
 + watchOS 2+
 

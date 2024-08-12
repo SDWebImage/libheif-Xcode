@@ -44,7 +44,7 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
 
   # libde265 decoder
   s.subspec 'libde265' do |ss|
-    ss.dependency 'libde265', '>= 1.0.9-beta'
+    ss.dependency 'libde265', '>= 1.0.9'
     ss.dependency 'libheif/libheif'
     ss.source_files = 'libheif/plugins/decoder_libde265.{h,c,cc}'
     ss.private_header_files = 'libheif/plugins/decoder_libde265.h'

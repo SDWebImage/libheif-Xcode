@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3201517A2C6A027F00B9EE59 /* encoder_uncompressed.h in Headers */ = {isa = PBXBuildFile; fileRef = 320151782C6A027F00B9EE59 /* encoder_uncompressed.h */; };
+		3201517B2C6A027F00B9EE59 /* encoder_uncompressed.h in Headers */ = {isa = PBXBuildFile; fileRef = 320151782C6A027F00B9EE59 /* encoder_uncompressed.h */; };
+		3201517C2C6A027F00B9EE59 /* encoder_uncompressed.h in Headers */ = {isa = PBXBuildFile; fileRef = 320151782C6A027F00B9EE59 /* encoder_uncompressed.h */; };
+		3201517D2C6A027F00B9EE59 /* encoder_uncompressed.h in Headers */ = {isa = PBXBuildFile; fileRef = 320151782C6A027F00B9EE59 /* encoder_uncompressed.h */; };
+		3201517E2C6A027F00B9EE59 /* encoder_uncompressed.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320151792C6A027F00B9EE59 /* encoder_uncompressed.cc */; };
+		3201517F2C6A027F00B9EE59 /* encoder_uncompressed.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320151792C6A027F00B9EE59 /* encoder_uncompressed.cc */; };
+		320151802C6A027F00B9EE59 /* encoder_uncompressed.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320151792C6A027F00B9EE59 /* encoder_uncompressed.cc */; };
+		320151812C6A027F00B9EE59 /* encoder_uncompressed.cc in Sources */ = {isa = PBXBuildFile; fileRef = 320151792C6A027F00B9EE59 /* encoder_uncompressed.cc */; };
+		320151832C6A034E00B9EE59 /* libx265.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320151822C6A034E00B9EE59 /* libx265.framework */; };
+		320151852C6A035B00B9EE59 /* libx265.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320151842C6A035B00B9EE59 /* libx265.framework */; };
+		320151872C6A043C00B9EE59 /* libx265.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320151862C6A043C00B9EE59 /* libx265.framework */; };
+		320151882C6A04C500B9EE59 /* libx265.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320714692C69EC5F006D2A33 /* libx265.framework */; };
+		3201518A2C6A052800B9EE59 /* libx265.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 320714692C69EC5F006D2A33 /* libx265.framework */; };
 		320714132C69E7E0006D2A33 /* heif_regions.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207140F2C69E7E0006D2A33 /* heif_regions.cc */; };
 		320714142C69E7E0006D2A33 /* heif_regions.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207140F2C69E7E0006D2A33 /* heif_regions.cc */; };
 		320714152C69E7E0006D2A33 /* heif_regions.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207140F2C69E7E0006D2A33 /* heif_regions.cc */; };
@@ -63,6 +76,15 @@
 		3207145C2C69E9E1006D2A33 /* encoder_mask.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207144E2C69E9E1006D2A33 /* encoder_mask.cc */; };
 		3207145D2C69E9E1006D2A33 /* encoder_mask.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207144E2C69E9E1006D2A33 /* encoder_mask.cc */; };
 		3207145E2C69E9E1006D2A33 /* encoder_mask.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207144E2C69E9E1006D2A33 /* encoder_mask.cc */; };
+		320714612C69EC32006D2A33 /* encoder_x265.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207145F2C69EC32006D2A33 /* encoder_x265.cc */; };
+		320714622C69EC32006D2A33 /* encoder_x265.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207145F2C69EC32006D2A33 /* encoder_x265.cc */; };
+		320714632C69EC32006D2A33 /* encoder_x265.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207145F2C69EC32006D2A33 /* encoder_x265.cc */; };
+		320714642C69EC32006D2A33 /* encoder_x265.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3207145F2C69EC32006D2A33 /* encoder_x265.cc */; };
+		320714652C69EC32006D2A33 /* encoder_x265.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714602C69EC32006D2A33 /* encoder_x265.h */; };
+		320714662C69EC32006D2A33 /* encoder_x265.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714602C69EC32006D2A33 /* encoder_x265.h */; };
+		320714672C69EC32006D2A33 /* encoder_x265.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714602C69EC32006D2A33 /* encoder_x265.h */; };
+		320714682C69EC32006D2A33 /* encoder_x265.h in Headers */ = {isa = PBXBuildFile; fileRef = 320714602C69EC32006D2A33 /* encoder_x265.h */; };
+		3207146A2C69EC5F006D2A33 /* libx265.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320714692C69EC5F006D2A33 /* libx265.framework */; };
 		32AD2E832AC4643A00C9E834 /* common_utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2E2E2AC4643A00C9E834 /* common_utils.cc */; };
 		32AD2E842AC4643A00C9E834 /* common_utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2E2E2AC4643A00C9E834 /* common_utils.cc */; };
 		32AD2E852AC4643A00C9E834 /* common_utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32AD2E2E2AC4643A00C9E834 /* common_utils.cc */; };
@@ -336,6 +358,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				3201518A2C6A052800B9EE59 /* libx265.framework in Copy Files */,
 				32BF9B6821CCF2A900056EB2 /* libde265.framework in Copy Files */,
 			);
 			name = "Copy Files";
@@ -344,6 +367,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		320151782C6A027F00B9EE59 /* encoder_uncompressed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoder_uncompressed.h; sourceTree = "<group>"; };
+		320151792C6A027F00B9EE59 /* encoder_uncompressed.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encoder_uncompressed.cc; sourceTree = "<group>"; };
+		320151822C6A034E00B9EE59 /* libx265.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libx265.framework; path = Carthage/Build/iOS/libx265.framework; sourceTree = "<group>"; };
+		320151842C6A035B00B9EE59 /* libx265.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libx265.framework; path = Carthage/Build/tvOS/libx265.framework; sourceTree = "<group>"; };
+		320151862C6A043C00B9EE59 /* libx265.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libx265.framework; path = Carthage/Build/watchOS/libx265.framework; sourceTree = "<group>"; };
 		3207140F2C69E7E0006D2A33 /* heif_regions.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_regions.cc; sourceTree = "<group>"; };
 		320714102C69E7E0006D2A33 /* heif_properties.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heif_properties.cc; sourceTree = "<group>"; };
 		320714112C69E7E0006D2A33 /* heif_properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_properties.h; sourceTree = "<group>"; };
@@ -358,6 +386,9 @@
 		320714422C69E850006D2A33 /* vvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vvc.h; sourceTree = "<group>"; };
 		3207144C2C69E9E1006D2A33 /* encoder_mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoder_mask.h; sourceTree = "<group>"; };
 		3207144E2C69E9E1006D2A33 /* encoder_mask.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encoder_mask.cc; sourceTree = "<group>"; };
+		3207145F2C69EC32006D2A33 /* encoder_x265.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encoder_x265.cc; sourceTree = "<group>"; };
+		320714602C69EC32006D2A33 /* encoder_x265.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoder_x265.h; sourceTree = "<group>"; };
+		320714692C69EC5F006D2A33 /* libx265.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libx265.framework; path = Carthage/Build/Mac/libx265.framework; sourceTree = "<group>"; };
 		32AD2E2E2AC4643A00C9E834 /* common_utils.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common_utils.cc; sourceTree = "<group>"; };
 		32AD2E2F2AC4643A00C9E834 /* init.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = init.cc; sourceTree = "<group>"; };
 		32AD2E302AC4643A00C9E834 /* heif_plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heif_plugin.h; sourceTree = "<group>"; };
@@ -440,6 +471,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3207146A2C69EC5F006D2A33 /* libx265.framework in Frameworks */,
 				32BF9B6421CCEFC100056EB2 /* libde265.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +480,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320151882C6A04C500B9EE59 /* libx265.framework in Frameworks */,
 				32BF9B6621CCF1AC00056EB2 /* libde265.framework in Frameworks */,
 				32BF9B6521CCF16800056EB2 /* libheif.framework in Frameworks */,
 			);
@@ -457,6 +490,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320151832C6A034E00B9EE59 /* libx265.framework in Frameworks */,
 				32BF9BEE21CCF62A00056EB2 /* libde265.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +499,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320151852C6A035B00B9EE59 /* libx265.framework in Frameworks */,
 				32BF9BF021CCF63800056EB2 /* libde265.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,6 +508,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320151872C6A043C00B9EE59 /* libx265.framework in Frameworks */,
 				32BF9BF221CCF64300056EB2 /* libde265.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,6 +583,10 @@
 			children = (
 				3207144E2C69E9E1006D2A33 /* encoder_mask.cc */,
 				3207144C2C69E9E1006D2A33 /* encoder_mask.h */,
+				3207145F2C69EC32006D2A33 /* encoder_x265.cc */,
+				320714602C69EC32006D2A33 /* encoder_x265.h */,
+				320151792C6A027F00B9EE59 /* encoder_uncompressed.cc */,
+				320151782C6A027F00B9EE59 /* encoder_uncompressed.h */,
 				32AD2E402AC4643A00C9E834 /* decoder_libde265.cc */,
 				32AD2E432AC4643A00C9E834 /* decoder_libde265.h */,
 			);
@@ -647,6 +687,10 @@
 		32BF9B6221CCEFC100056EB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				320714692C69EC5F006D2A33 /* libx265.framework */,
+				320151822C6A034E00B9EE59 /* libx265.framework */,
+				320151842C6A035B00B9EE59 /* libx265.framework */,
+				320151862C6A043C00B9EE59 /* libx265.framework */,
 				32BF9BED21CCF62A00056EB2 /* libde265.framework */,
 				32BF9BEF21CCF63800056EB2 /* libde265.framework */,
 				32BF9BF121CCF64300056EB2 /* libde265.framework */,
@@ -690,7 +734,9 @@
 				32AD2F0B2AC4643A00C9E834 /* file.h in Headers */,
 				32AD2EAB2AC4643A00C9E834 /* common_utils.h in Headers */,
 				32AD2F272AC4643A00C9E834 /* plugin_registry.h in Headers */,
+				320714652C69EC32006D2A33 /* encoder_x265.h in Headers */,
 				3207143D2C69E843006D2A33 /* mask_image.h in Headers */,
+				3201517A2C6A027F00B9EE59 /* encoder_uncompressed.h in Headers */,
 				320714532C69E9E1006D2A33 /* encoder_mask.h in Headers */,
 				32AD2F872AC4643A00C9E834 /* rgb2yuv.h in Headers */,
 				32AD2F2F2AC4643A00C9E834 /* pixelimage.h in Headers */,
@@ -740,7 +786,9 @@
 				32AD2F0C2AC4643A00C9E834 /* file.h in Headers */,
 				32AD2EAC2AC4643A00C9E834 /* common_utils.h in Headers */,
 				32AD2F282AC4643A00C9E834 /* plugin_registry.h in Headers */,
+				320714662C69EC32006D2A33 /* encoder_x265.h in Headers */,
 				3207143E2C69E843006D2A33 /* mask_image.h in Headers */,
+				3201517B2C6A027F00B9EE59 /* encoder_uncompressed.h in Headers */,
 				320714542C69E9E1006D2A33 /* encoder_mask.h in Headers */,
 				32AD2F882AC4643A00C9E834 /* rgb2yuv.h in Headers */,
 				32AD2F302AC4643A00C9E834 /* pixelimage.h in Headers */,
@@ -790,7 +838,9 @@
 				32AD2F0D2AC4643A00C9E834 /* file.h in Headers */,
 				32AD2EAD2AC4643A00C9E834 /* common_utils.h in Headers */,
 				32AD2F292AC4643A00C9E834 /* plugin_registry.h in Headers */,
+				320714672C69EC32006D2A33 /* encoder_x265.h in Headers */,
 				3207143F2C69E843006D2A33 /* mask_image.h in Headers */,
+				3201517C2C6A027F00B9EE59 /* encoder_uncompressed.h in Headers */,
 				320714552C69E9E1006D2A33 /* encoder_mask.h in Headers */,
 				32AD2F892AC4643A00C9E834 /* rgb2yuv.h in Headers */,
 				32AD2F312AC4643A00C9E834 /* pixelimage.h in Headers */,
@@ -840,7 +890,9 @@
 				32AD2F0E2AC4643A00C9E834 /* file.h in Headers */,
 				32AD2EAE2AC4643A00C9E834 /* common_utils.h in Headers */,
 				32AD2F2A2AC4643A00C9E834 /* plugin_registry.h in Headers */,
+				320714682C69EC32006D2A33 /* encoder_x265.h in Headers */,
 				320714402C69E843006D2A33 /* mask_image.h in Headers */,
+				3201517D2C6A027F00B9EE59 /* encoder_uncompressed.h in Headers */,
 				320714562C69E9E1006D2A33 /* encoder_mask.h in Headers */,
 				32AD2F8A2AC4643A00C9E834 /* rgb2yuv.h in Headers */,
 				32AD2F322AC4643A00C9E834 /* pixelimage.h in Headers */,
@@ -1048,6 +1100,7 @@
 				32AD2FA32AC4643A00C9E834 /* monochrome.cc in Sources */,
 				32AD2F732AC4643A00C9E834 /* hdr_sdr.cc in Sources */,
 				32AD2F772AC4643A00C9E834 /* chroma_sampling.cc in Sources */,
+				3201517E2C6A027F00B9EE59 /* encoder_uncompressed.cc in Sources */,
 				32AD2F8F2AC4643A00C9E834 /* colorconversion.cc in Sources */,
 				32AD2E832AC4643A00C9E834 /* common_utils.cc in Sources */,
 				320714392C69E843006D2A33 /* mask_image.cc in Sources */,
@@ -1059,6 +1112,7 @@
 				32AD2F5B2AC4643A00C9E834 /* heif_plugin.cc in Sources */,
 				3207142B2C69E837006D2A33 /* jpeg.cc in Sources */,
 				32AD2F372AC4643A00C9E834 /* uncompressed_image.cc in Sources */,
+				320714612C69EC32006D2A33 /* encoder_x265.cc in Sources */,
 				32AD2E9F2AC4643A00C9E834 /* pixelimage.cc in Sources */,
 				32AD2F332AC4643A00C9E834 /* bitstream.cc in Sources */,
 				320714172C69E7E0006D2A33 /* heif_properties.cc in Sources */,
@@ -1098,6 +1152,7 @@
 				32AD2FA42AC4643B00C9E834 /* monochrome.cc in Sources */,
 				32AD2F742AC4643A00C9E834 /* hdr_sdr.cc in Sources */,
 				32AD2F782AC4643A00C9E834 /* chroma_sampling.cc in Sources */,
+				3201517F2C6A027F00B9EE59 /* encoder_uncompressed.cc in Sources */,
 				32AD2F902AC4643A00C9E834 /* colorconversion.cc in Sources */,
 				32AD2E842AC4643A00C9E834 /* common_utils.cc in Sources */,
 				3207143A2C69E843006D2A33 /* mask_image.cc in Sources */,
@@ -1109,6 +1164,7 @@
 				32AD2F5C2AC4643A00C9E834 /* heif_plugin.cc in Sources */,
 				3207142C2C69E837006D2A33 /* jpeg.cc in Sources */,
 				32AD2F382AC4643A00C9E834 /* uncompressed_image.cc in Sources */,
+				320714622C69EC32006D2A33 /* encoder_x265.cc in Sources */,
 				32AD2EA02AC4643A00C9E834 /* pixelimage.cc in Sources */,
 				32AD2F342AC4643A00C9E834 /* bitstream.cc in Sources */,
 				320714182C69E7E0006D2A33 /* heif_properties.cc in Sources */,
@@ -1140,6 +1196,7 @@
 				32AD2FA52AC4643B00C9E834 /* monochrome.cc in Sources */,
 				32AD2F752AC4643A00C9E834 /* hdr_sdr.cc in Sources */,
 				32AD2F792AC4643A00C9E834 /* chroma_sampling.cc in Sources */,
+				320151802C6A027F00B9EE59 /* encoder_uncompressed.cc in Sources */,
 				32AD2F912AC4643A00C9E834 /* colorconversion.cc in Sources */,
 				32AD2E852AC4643A00C9E834 /* common_utils.cc in Sources */,
 				3207143B2C69E843006D2A33 /* mask_image.cc in Sources */,
@@ -1151,6 +1208,7 @@
 				32AD2F5D2AC4643A00C9E834 /* heif_plugin.cc in Sources */,
 				3207142D2C69E837006D2A33 /* jpeg.cc in Sources */,
 				32AD2F392AC4643A00C9E834 /* uncompressed_image.cc in Sources */,
+				320714632C69EC32006D2A33 /* encoder_x265.cc in Sources */,
 				32AD2EA12AC4643A00C9E834 /* pixelimage.cc in Sources */,
 				32AD2F352AC4643A00C9E834 /* bitstream.cc in Sources */,
 				320714192C69E7E0006D2A33 /* heif_properties.cc in Sources */,
@@ -1182,6 +1240,7 @@
 				32AD2FA62AC4643B00C9E834 /* monochrome.cc in Sources */,
 				32AD2F762AC4643A00C9E834 /* hdr_sdr.cc in Sources */,
 				32AD2F7A2AC4643A00C9E834 /* chroma_sampling.cc in Sources */,
+				320151812C6A027F00B9EE59 /* encoder_uncompressed.cc in Sources */,
 				32AD2F922AC4643A00C9E834 /* colorconversion.cc in Sources */,
 				32AD2E862AC4643A00C9E834 /* common_utils.cc in Sources */,
 				3207143C2C69E843006D2A33 /* mask_image.cc in Sources */,
@@ -1193,6 +1252,7 @@
 				32AD2F5E2AC4643A00C9E834 /* heif_plugin.cc in Sources */,
 				3207142E2C69E837006D2A33 /* jpeg.cc in Sources */,
 				32AD2F3A2AC4643A00C9E834 /* uncompressed_image.cc in Sources */,
+				320714642C69EC32006D2A33 /* encoder_x265.cc in Sources */,
 				32AD2EA22AC4643A00C9E834 /* pixelimage.cc in Sources */,
 				32AD2F362AC4643A00C9E834 /* bitstream.cc in Sources */,
 				3207141A2C69E7E0006D2A33 /* heif_properties.cc in Sources */,
@@ -1259,7 +1319,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/libheif";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/libheif",
+					"$(PROJECT_DIR)/Carthage/Checkouts/libx265-Xcode/include",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -1319,7 +1382,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/libheif";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/libheif",
+					"$(PROJECT_DIR)/Carthage/Checkouts/libx265-Xcode/include",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1350,6 +1416,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"HAVE_LIBDE265=1",
+					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);
@@ -1385,6 +1452,7 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"HAVE_LIBDE265=1",
+					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);
@@ -1445,6 +1513,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"HAVE_LIBDE265=1",
+					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);
@@ -1480,6 +1549,7 @@
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"HAVE_LIBDE265=1",
+					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);
@@ -1517,6 +1587,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"HAVE_LIBDE265=1",
+					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);
@@ -1552,6 +1623,7 @@
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"HAVE_LIBDE265=1",
+					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);
@@ -1590,6 +1662,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"HAVE_LIBDE265=1",
+					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);
@@ -1626,6 +1699,7 @@
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"HAVE_LIBDE265=1",
+					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);

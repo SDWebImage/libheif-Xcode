@@ -1,1 +1,2 @@
-github "SDWebImage/libde265-Xcode" >= 1.0.9-beta
+github "SDWebImage/libde265-Xcode" >= 1.0.9
+github "SDWebImage/libx265-Xcode" >= 3.4

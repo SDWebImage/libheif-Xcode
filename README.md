@@ -53,13 +53,40 @@ let package = Package(
 
 libheif itself is not a full function decoder but an abstract layer. It needs [libde265](http://www.libde265.org/) for HEIF decoder support, and [x265](http://x265.org/) for HEIF encoder support.
 
+Note: Since most of people's usage of this library is for HEIF decoding, and `x265` is under GPLv2 license, we only integrate libheif with [libde265-Xcode](https://github.com/SDWebImage/libde265-Xcode) on Carthage/SwiftPM package manager. If you want x265 with HEIF encoding support, read below carefully.
+
+### x265 on CocoaPods
+
 For CocoaPods user, you can use `libx265` subspec to integrate the x265 codec supports for HEIF encoding.
 
 ```ruby
 pod 'libheif', :subspecs => ['libde265', 'libx265']
 ```
 
-Since most of people's usage of this library is for HEIF decoding, and `x265` is under GPLv2 license, we only integrate libheif with the Carthage dependency [libde265-Xcode](https://github.com/SDWebImage/libde265-Xcode). To use x265 for HEIF encoding, try to build it by your own.
+### x265 on Carthage
+
+For Carthage user, export the environment (using bash profile or xcconfig if you want) `HAVE_X265=1`, and modify carthage's xcconfig about `GCC_PREPROCESSOR_DEFINITIONS` to build.
+
+You can use the shell script to spawn carthage, like run via `carthage_build_with_x265.sh build`
+
+```bash
+#!/bin/bash -e
+xcconfig=$(mktemp /tmp/static.xcconfig.XXXXXX)
+echo "GCC_PREPROCESSOR_DEFINITIONS = $(inherited) HAVE_X265=1" >> $xcconfig
+
+export XCODE_XCCONFIG_FILE="$xcconfig"
+
+carthage "$@"
+```
+
+### x265 on SwiftPM
+
+For SPM user, export the environment (using bash profile or xcconfig if you want) `HAVE_X265=1`, and use `xcodebuild` or `swift build` to build.
+
+```bash
+mv libheif.xcodeproj libheif.xcodeproj.bak
+HAVE_X265=1 xcodebuild build -scheme libheif -sdk macosx -destination "generic/platform=macOS"
+```
 
 ## AVIF Decoding
 

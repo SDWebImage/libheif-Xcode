@@ -1416,7 +1416,6 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"HAVE_LIBDE265=1",
-					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);
@@ -1452,7 +1451,6 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"HAVE_LIBDE265=1",
-					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);
@@ -1513,7 +1511,6 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"HAVE_LIBDE265=1",
-					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);
@@ -1549,7 +1546,6 @@
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"HAVE_LIBDE265=1",
-					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);
@@ -1587,7 +1583,6 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"HAVE_LIBDE265=1",
-					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);
@@ -1623,7 +1618,6 @@
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"HAVE_LIBDE265=1",
-					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);
@@ -1662,7 +1656,6 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"HAVE_LIBDE265=1",
-					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);
@@ -1699,7 +1692,6 @@
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"HAVE_LIBDE265=1",
-					"HAVE_X265=1",
 					"HAVE_UNISTD_H=1",
 					"$(inherited)",
 				);
